@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "MERGED_MANIFESTS",
+    "kind": "Directory"
+  },
+  "applicationId": "de.j4velin.pedometer",
+  "variantName": "fdroidDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionName": "1.0.0",
+      "outputFile": "AndroidManifest.xml"
+    }
+  ]
+}

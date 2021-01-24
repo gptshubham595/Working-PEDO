@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ホームに戻る"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"前に戻る"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"完了"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"OFF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ON"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"検索…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"<ns1:g id="APPLICATION_NAME">%s</ns1:g>と共有"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <string name="about">情報</string>
+    <string name="about_app_version">アプリのバージョン: %s</string>
+    <string name="about_text_links">このアプリは Thomas Hoffmann によって作成されました (<a href="https://www.j4velin.de">www.j4velin.de</a>) そして <a href="https://github.com/blackfizz/EazeGraph">EazeGraph</a> by Paul Cech と <a href="https://github.com/attenzione/android-ColorPickerPreference">ColorPickerPreference</a> by Sergey Margaritov を使用します。\n\nPedometer はオープンソースです! コードと貢献者のすべてのリストは <a href="https://github.com/j4velin/Pedometer">GitHub</a> を参照してください。\n\n</string>
+    <string name="account">アカウント</string>
+    <string name="achievements">実績</string>
+    <string name="app_name">Pedometer</string>
+    <string name="average">平均</string>
+    <string name="average_last_7_days">過去7日間の平均</string>
+    <string name="average_this_month">今月の平均</string>
+    <string name="background_color">背景の色:</string>
+    <string name="close">閉じる</string>
+    <string name="data_saved">%s にデータを保存しました</string>
+    <string name="entries_ignored">%d 件の無効なデータをスキップしました</string>
+    <string name="entries_imported">%d 件のデータを復元しました</string>
+    <string name="error_external_storage_not_available">エラー: 外部ストレージが利用できません</string>
+    <string name="error_file">ファイル %s にアクセスできません</string>
+    <string name="export_summary">CSV 形式のファイルにデータを保存</string>
+    <string name="export_title">エクスポート/バックアップ</string>
+    <string name="faq">FAQ</string>
+    <string name="file_already_exists">既にファイルがあります。このファイルを上書きしますか？</string>
+    <string name="file_cant_read">エラー: %s が読み込めません</string>
+    <string name="goal">目標</string>
+    <string name="goal_reached_notification">目標達成！%s 歩</string>
+    <string name="goal_summary">現在の目標: %,d 歩</string>
+    <string name="import_summary">前回保存したデータから復元</string>
+    <string name="import_title">インポート/リストア</string>
+    <string name="ispaused">Pedometer は停止中</string>
+    <string name="leaderboard">リーダーボード</string>
+    <string msgid="2939063992730535343" name="mr_button_content_description">"キャスト"</string>
+    <string msgid="6073720094880410356" name="mr_cast_button_connected">"キャスト。接続済み"</string>
+    <string msgid="6629927151350192407" name="mr_cast_button_connecting">"キャスト。接続中"</string>
+    <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"キャスト。未接続"</string>
+    <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"情報がありません"</string>
+    <string msgid="6114250663023140921" name="mr_chooser_searching">"デバイスを検出しています"</string>
+    <string msgid="1419936397646839840" name="mr_chooser_title">"キャスト先"</string>
+    <string msgid="3330502667672708728" name="mr_controller_album_art">"アルバムアート"</string>
+    <string msgid="9171231064758955152" name="mr_controller_casting_screen">"画面をキャストしています"</string>
+    <string msgid="5684434439232634509" name="mr_controller_close_description">"閉じる"</string>
+    <string msgid="2585048604188129749" name="mr_controller_collapse_group">"折りたたむ"</string>
+    <string msgid="7812275474138309497" name="mr_controller_disconnect">"接続を解除"</string>
+    <string msgid="4521419834052044261" name="mr_controller_expand_group">"展開"</string>
+    <string msgid="855271725131981086" name="mr_controller_no_info_available">"情報がありません"</string>
+    <string msgid="5495452265246139458" name="mr_controller_no_media_selected">"メディアが選択されていません"</string>
+    <string msgid="747801650871398383" name="mr_controller_pause">"一時停止"</string>
+    <string msgid="1253345086594430054" name="mr_controller_play">"再生"</string>
+    <string msgid="5497722768305745508" name="mr_controller_stop">"停止"</string>
+    <string msgid="804210341192624074" name="mr_controller_stop_casting">"キャストを停止"</string>
+    <string msgid="2955862765169128170" name="mr_controller_volume_slider">"音量スライダー"</string>
+    <string msgid="4115858704575247342" name="mr_dialog_default_group_name">"グループ"</string>
+    <string msgid="4307018456678388936" name="mr_dialog_groupable_header">"デバイスの追加"</string>
+    <string msgid="6068257520605505468" name="mr_dialog_transferable_header">"グループで再生"</string>
+    <string msgid="7449553026175453403" name="mr_system_route_name">"システム"</string>
+    <string msgid="4088331695424166162" name="mr_user_route_category_name">"デバイス"</string>
+    <string name="no_sensor">センサーが見つかりません</string>
+    <string name="no_sensor_explain">このアプリは、専用のハードウェア歩数センサーが必要です - お使いのデバイスにはありません。このアプリはお使いのデバイスで実行できません。</string>
+    <string name="no_split_active">開始をタップすると、現在時点からの歩数をカウントします</string>
+    <string name="notification">通知を表示</string>
+    <string name="notification_text">目標達成まであと %s 歩</string>
+    <string name="notification_title">歩数をカウント中</string>
+    <string name="pause">一時停止</string>
+    <string name="pause_on_power_summary">デバイスの充電中はPedometerを一時停止します</string>
+    <string name="pause_on_power_title">充電中は一時停止</string>
+    <string name="permission_external_storage">外部ストレージのアクセス許可がありません</string>
+    <string name="please_sign_in_with_your_google_account">この機能を利用するにはGoogle+のアカウントでサインインしてください</string>
+    <string name="record">記録</string>
+    <string name="resume">再開</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"検索"</string>
+    <string name="set_goal">目標の設定</string>
+    <string name="set_step_size">歩幅の設定</string>
+    <string name="settings">設定</string>
+    <string name="sign_in">Googleアカウントでサインインすると、実績やリーダーボードが使えるようになります</string>
+    <string name="sign_in_necessary">サインインが必要です</string>
+    <string name="sign_out">サインアウト</string>
+    <string name="signed_in">%s としてサインイン中</string>
+    <string name="since">%s より</string>
+    <string name="split_count">スプリットカウント</string>
+    <string name="start">開始</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="step_size">歩幅</string>
+    <string name="step_size_summary">現在の歩幅: %1$.2f %2$s</string>
+    <string name="steps">歩</string>
+    <string name="stop">終了</string>
+    <string name="text_color">文字の色:</string>
+    <string name="total">合計</string>
+    <string name="total_last_7_days">過去7日間の合計</string>
+    <string name="total_this_month">今月の合計</string>
+    <string name="your_progress_will_be_shown_here_soon">歩数はもうすぐ表示されます</string>
+</resources>

@@ -1,0 +1,65 @@
+de/j4velin/pedometer/ShutdownRecevier.java
+ de.j4velin.pedometer.ShutdownRecevier
+de/j4velin/pedometer/ui/Fragment_Overview.java
+ de.j4velin.pedometer.ui.Fragment_Overview
+ de.j4velin.pedometer.ui.Fragment_Overview$1
+ de.j4velin.pedometer.ui.Fragment_Overview$2
+ de.j4velin.pedometer.ui.Fragment_Overview$3
+ de.j4velin.pedometer.ui.Fragment_Overview$4
+de/j4velin/pedometer/BuildConfig.java
+ de.j4velin.pedometer.BuildConfig
+de/j4velin/pedometer/util/Util.java
+ de.j4velin.pedometer.util.Util
+de/j4velin/pedometer/AppUpdatedReceiver.java
+ de.j4velin.pedometer.AppUpdatedReceiver
+de/j4velin/pedometer/SensorListener.java
+ de.j4velin.pedometer.SensorListener
+de/j4velin/pedometer/widget/Widget.java
+ de.j4velin.pedometer.widget.Widget
+de/j4velin/pedometer/Database.java
+ de.j4velin.pedometer.Database
+de/j4velin/pedometer/widget/WidgetConfig.java
+ de.j4velin.pedometer.widget.WidgetConfig
+ de.j4velin.pedometer.widget.WidgetConfig$1
+de/j4velin/pedometer/BootReceiver.java
+ de.j4velin.pedometer.BootReceiver
+de/j4velin/pedometer/util/API23Wrapper.java
+ de.j4velin.pedometer.util.API23Wrapper
+de/j4velin/pedometer/util/PlaySettingsWrapper.java
+ de.j4velin.pedometer.util.PlaySettingsWrapper
+de/j4velin/pedometer/util/Logger.java
+ de.j4velin.pedometer.util.Logger
+de/j4velin/pedometer/widget/WidgetUpdateService.java
+ de.j4velin.pedometer.widget.WidgetUpdateService
+de/j4velin/pedometer/ui/Fragment_Settings.java
+ de.j4velin.pedometer.ui.Fragment_Settings
+ de.j4velin.pedometer.ui.Fragment_Settings$1
+ de.j4velin.pedometer.ui.Fragment_Settings$10
+ de.j4velin.pedometer.ui.Fragment_Settings$11
+ de.j4velin.pedometer.ui.Fragment_Settings$12
+ de.j4velin.pedometer.ui.Fragment_Settings$13
+ de.j4velin.pedometer.ui.Fragment_Settings$14
+ de.j4velin.pedometer.ui.Fragment_Settings$15
+ de.j4velin.pedometer.ui.Fragment_Settings$2
+ de.j4velin.pedometer.ui.Fragment_Settings$3
+ de.j4velin.pedometer.ui.Fragment_Settings$4
+ de.j4velin.pedometer.ui.Fragment_Settings$5
+ de.j4velin.pedometer.ui.Fragment_Settings$6
+ de.j4velin.pedometer.ui.Fragment_Settings$7
+ de.j4velin.pedometer.ui.Fragment_Settings$8
+ de.j4velin.pedometer.ui.Fragment_Settings$9
+de/j4velin/pedometer/ui/Dialog_Statistics.java
+ de.j4velin.pedometer.ui.Dialog_Statistics
+ de.j4velin.pedometer.ui.Dialog_Statistics$1
+de/j4velin/pedometer/util/API26Wrapper.java
+ de.j4velin.pedometer.util.API26Wrapper
+de/j4velin/pedometer/widget/DashClock.java
+ de.j4velin.pedometer.widget.DashClock
+de/j4velin/pedometer/ui/Dialog_Split.java
+ de.j4velin.pedometer.ui.Dialog_Split
+ de.j4velin.pedometer.ui.Dialog_Split$1
+ de.j4velin.pedometer.ui.Dialog_Split$2
+de/j4velin/pedometer/ui/Activity_Main.java
+ de.j4velin.pedometer.ui.Activity_Main
+ de.j4velin.pedometer.ui.Activity_Main$1
+ de.j4velin.pedometer.ui.Activity_Main$2

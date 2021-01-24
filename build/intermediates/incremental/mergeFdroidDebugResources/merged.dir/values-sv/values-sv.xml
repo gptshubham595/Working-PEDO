@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navigera hem"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navigera uppåt"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Fler alternativ"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Klar"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Visa alla"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Välj en app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"AV"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"PÅ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt + "</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl + "</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"retur"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Funktion + "</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta + "</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Skift + "</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"blanksteg"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Symbol + "</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meny + "</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Sök …"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Ta bort frågan"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Sökfråga"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Sök"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Skicka fråga"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Röstsökning"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Dela med"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Dela med <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Komprimera"</string>
+    <string name="about">Om</string>
+    <string name="about_app_version">Appens version: %s</string>
+    <string name="about_text_links">Den här appen skapades av Thomas Hoffmann (<a href="http://www.j4velin-development.de">www.j4velin-development.de</a>) och använder <a href="https://github.com/blackfizz/EazeGraph">EazeGraph</a> av Paul Cech och <a href="https://github.com/attenzione/android-ColorPickerPreference">ColorPickerPreference</a> av Sergey Margaritov.\n\nPedometer är öppen källkod! Hämta koden och en fullständig lista på de som bidragit på <a href="https://github.com/j4velin/Pedometer">GitHub</a>.\n\n</string>
+    <string name="account">Konto</string>
+    <string name="achievements">Prestationer</string>
+    <string name="app_name">Pedometer</string>
+    <string name="average">Genomsnitt</string>
+    <string name="average_last_7_days">Genomsnitt senaste 7 dagarna</string>
+    <string name="average_this_month">Genomsnitt den här månaden</string>
+    <string name="background_color">Bakgrundsfärg:</string>
+    <string name="close">stäng</string>
+    <string name="data_saved">Data sparad i %s</string>
+    <string name="entries_ignored">%d poster ignorerades eftersom de inte innehöll valid data</string>
+    <string name="entries_imported">%d poster importerade</string>
+    <string name="entries_overwritten">%d poster skrevs över med importerad data</string>
+    <string name="error_external_storage_not_available">Fel: Extern lagring inte tillgänglig</string>
+    <string name="error_file">Fel vid filåtkomst: %s</string>
+    <string name="export_summary">Spara data i CSV-format</string>
+    <string name="export_title">Exportera/Säkerhetskopiera</string>
+    <string name="faq">FAQ</string>
+    <string name="file_already_exists">Filen existerar redan. Är du säker på att du vill skriva över den?</string>
+    <string name="file_cant_read">Fel: %s kan inte läsas</string>
+    <string name="goal">Mål</string>
+    <string name="goal_reached_notification">Mål nått! %s steg hittills</string>
+    <string name="goal_summary">Nuvarande mål: %,d steg</string>
+    <string name="import_summary">Importera tidigare sparad data</string>
+    <string name="import_title">Importera/Återställa</string>
+    <string name="leaderboard">Topplistor</string>
+    <string msgid="2939063992730535343" name="mr_button_content_description">"Casta"</string>
+    <string msgid="6073720094880410356" name="mr_cast_button_connected">"Casta. Ansluten"</string>
+    <string msgid="6629927151350192407" name="mr_cast_button_connecting">"Casta. Ansluter"</string>
+    <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"Casta. Frånkopplad"</string>
+    <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"Det finns ingen tillgänglig information"</string>
+    <string msgid="6114250663023140921" name="mr_chooser_searching">"Letar efter enheter"</string>
+    <string msgid="1419936397646839840" name="mr_chooser_title">"Casta till"</string>
+    <string msgid="3330502667672708728" name="mr_controller_album_art">"Skivomslag"</string>
+    <string msgid="9171231064758955152" name="mr_controller_casting_screen">"Skärmen castas"</string>
+    <string msgid="5684434439232634509" name="mr_controller_close_description">"Stäng"</string>
+    <string msgid="2585048604188129749" name="mr_controller_collapse_group">"Dölj"</string>
+    <string msgid="7812275474138309497" name="mr_controller_disconnect">"Koppla från"</string>
+    <string msgid="4521419834052044261" name="mr_controller_expand_group">"Utöka"</string>
+    <string msgid="855271725131981086" name="mr_controller_no_info_available">"Det finns ingen information"</string>
+    <string msgid="5495452265246139458" name="mr_controller_no_media_selected">"Ingen media har valts"</string>
+    <string msgid="747801650871398383" name="mr_controller_pause">"Pausa"</string>
+    <string msgid="1253345086594430054" name="mr_controller_play">"Spela upp"</string>
+    <string msgid="5497722768305745508" name="mr_controller_stop">"Stopp"</string>
+    <string msgid="804210341192624074" name="mr_controller_stop_casting">"Sluta casta"</string>
+    <string msgid="2955862765169128170" name="mr_controller_volume_slider">"Volymreglage"</string>
+    <string msgid="4115858704575247342" name="mr_dialog_default_group_name">"Grupp"</string>
+    <string msgid="4307018456678388936" name="mr_dialog_groupable_header">"Lägga till en enhet"</string>
+    <string msgid="6068257520605505468" name="mr_dialog_transferable_header">"Spela upp på en grupp enheter"</string>
+    <string msgid="7449553026175453403" name="mr_system_route_name">"System"</string>
+    <string msgid="4088331695424166162" name="mr_user_route_category_name">"Enheter"</string>
+    <string name="no_sensor">Sensor hittades inte</string>
+    <string name="no_sensor_explain">Denna app kräver en dedikerad stegräknare i hårdvara, som din enhet saknar. Den här appen kan inte köra på din enhet.</string>
+    <string name="no_split_active">Ingen delad räknare aktiv. Tryck start för att räkna stegen från och med nu</string>
+    <string name="notification">Visa notifiering</string>
+    <string name="notification_settings">Notifieringsinställningar</string>
+    <string name="notification_text">%s steg kvar</string>
+    <string name="notification_title">Pedometer är aktiv</string>
+    <string name="permission_external_storage">Saknar tillstånd att komma åt extern lagring</string>
+    <string name="please_sign_in_with_your_google_account">Logga in med ditt konto på Google+ för att använda den här funktionen.</string>
+    <string name="record">Rekord</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Sök"</string>
+    <string name="set_goal">Ange mål</string>
+    <string name="set_step_size">Ange steglängd</string>
+    <string name="settings">Inställningar</string>
+    <string name="sign_in">Logga in med ditt Googlekonto för att använda prestationer och topplistor</string>
+    <string name="sign_in_necessary">Inloggning nödvändig</string>
+    <string name="sign_out">Logga ut</string>
+    <string name="signed_in">Inloggad som %s</string>
+    <string name="since">Sedan %s</string>
+    <string name="split_count">Dela räknare</string>
+    <string name="start">Start</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="step_size">Steglängd</string>
+    <string name="step_size_summary">Nuvarande steglängd: %1$.2f %2$s</string>
+    <string name="steps">steg</string>
+    <string name="stop">Stopp</string>
+    <string name="text_color">Textfärg:</string>
+    <string name="total">Totalt</string>
+    <string name="total_last_7_days">Totalt senaste 7 dagarna</string>
+    <string name="total_this_month">Totalt den här månaden</string>
+    <string name="your_progress_will_be_shown_here_soon">Dina framsteg kommer att visas här snart</string>
+</resources>

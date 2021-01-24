@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Ugrás a főoldalra"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Fel"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"További lehetőségek"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Kész"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Az összes megtekintése"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Válasszon alkalmazást"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"KI"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"BE"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Szóköz"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Keresés…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Lekérdezés törlése"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Keresési lekérdezés"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Keresés"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Lekérdezés küldése"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Hangalapú keresés"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Megosztás a következővel:"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Megosztás a következő alkalmazással: <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Összecsukás"</string>
+    <string name="about">Névjegy</string>
+    <string name="about_app_version">App verzió: %s</string>
+    <string name="about_text_links">Ezt a programot Thomas Hoffmann készítette (<a href="https://www.j4velin.de">www.j4velin.de</a>) és felhasználja:<a href="https://github.com/blackfizz/EazeGraph">az EazeGraph-ot
+    </a> Paul Cech-től és <a href="https://github.com/attenzione/android-ColorPickerPreference">a
+        ColorPickerPreference programot
+    </a> Sergey Margaritov-tól.\n\nA Pedometer nyílt forráskódú program! A forráskódot és a
+        közreműködők teljes listáját itt találod: <a href="https://github.com/j4velin/Pedometer">
+            GitHub</a>.
+    </string>
+    <string name="account">Fiók</string>
+    <string name="achievements">Kitüntetések</string>
+    <string name="app_name">Pedometer</string>
+    <string name="average">Átlag</string>
+    <string name="average_last_7_days">Utolsó 7 nap átlaga</string>
+    <string name="average_this_month">E hónap átlaga</string>
+    <string name="background_color">Háttér szín:</string>
+    <string name="close">bezár</string>
+    <string name="data_saved">Adat elmentve ide: %s</string>
+    <string name="entries_ignored">%d bejegyzés figyelmen kívül lett hagyva, mert nem tartalmazott
+        érvényes adatokat
+    </string>
+    <string name="entries_imported">%d bejegyzés importálva</string>
+    <string name="entries_overwritten">%d bejegyzés felül lett írva az importált adatokkal</string>
+    <string name="error_external_storage_not_available">Hiba: külső tárhely nem elérhető</string>
+    <string name="error_file">Hiba történt a %s fájl elérése közben</string>
+    <string name="export_summary">Mentse adatait .csv fájlba</string>
+    <string name="export_title">Exportálás/Mentés</string>
+    <string name="faq">GYIK</string>
+    <string name="file_already_exists">A fájl már létezik. Biztos benne, hogy felülírja?</string>
+    <string name="file_cant_read">Hiba: %s nem olvasható</string>
+    <string name="goal">Cél</string>
+    <string name="goal_reached_notification">Cél elérve! %s lépés és számuk nő</string>
+    <string name="goal_summary">Jelenlegi cél: %,d lépés</string>
+    <string name="import_summary">Importálja az előzőleg mentett adatokat</string>
+    <string name="import_title">Importálás/Visszaállítás</string>
+    <string name="ispaused">Pedometer megállítva</string>
+    <string name="leaderboard">Ranglista</string>
+    <string msgid="2939063992730535343" name="mr_button_content_description">"Átküldés"</string>
+    <string msgid="6073720094880410356" name="mr_cast_button_connected">"Átküldés. Csatlakoztatva."</string>
+    <string msgid="6629927151350192407" name="mr_cast_button_connecting">"Átküldés. Csatlakozás…"</string>
+    <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"Átküldés. Leválasztva."</string>
+    <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"Nincs információ"</string>
+    <string msgid="6114250663023140921" name="mr_chooser_searching">"Eszközök keresése"</string>
+    <string msgid="1419936397646839840" name="mr_chooser_title">"Átküldés ide:"</string>
+    <string msgid="3330502667672708728" name="mr_controller_album_art">"Lemezborító"</string>
+    <string msgid="9171231064758955152" name="mr_controller_casting_screen">"Képernyőtartalom átküldése…"</string>
+    <string msgid="5684434439232634509" name="mr_controller_close_description">"Bezárás"</string>
+    <string msgid="2585048604188129749" name="mr_controller_collapse_group">"Összecsukás"</string>
+    <string msgid="7812275474138309497" name="mr_controller_disconnect">"Leválasztás"</string>
+    <string msgid="4521419834052044261" name="mr_controller_expand_group">"Kibontás"</string>
+    <string msgid="855271725131981086" name="mr_controller_no_info_available">"Nincs információ"</string>
+    <string msgid="5495452265246139458" name="mr_controller_no_media_selected">"Nincs kiválasztott médiatartalom"</string>
+    <string msgid="747801650871398383" name="mr_controller_pause">"Szünet"</string>
+    <string msgid="1253345086594430054" name="mr_controller_play">"Lejátszás"</string>
+    <string msgid="5497722768305745508" name="mr_controller_stop">"Leállítás"</string>
+    <string msgid="804210341192624074" name="mr_controller_stop_casting">"Átküldés leállítása"</string>
+    <string msgid="2955862765169128170" name="mr_controller_volume_slider">"Hangerőszabályzó"</string>
+    <string msgid="4115858704575247342" name="mr_dialog_default_group_name">"Csoport"</string>
+    <string msgid="4307018456678388936" name="mr_dialog_groupable_header">"Eszköz hozzáadása"</string>
+    <string msgid="6068257520605505468" name="mr_dialog_transferable_header">"Lejátszás eszközcsoportban"</string>
+    <string msgid="7449553026175453403" name="mr_system_route_name">"Rendszer"</string>
+    <string msgid="4088331695424166162" name="mr_user_route_category_name">"Eszközök"</string>
+    <string name="no_sensor">Nem található szenzor</string>
+    <string name="no_sensor_explain">Ez az alkalmazás egy külön hardveres lépésérzékelőt igényel -
+        amellyel a készülék nem rendelkezik. Ez az alkalmazás nem fog futni a készüléken.
+    </string>
+    <string name="no_split_active">Nincs aktív megosztott számláló. Kattints a lépés számlálás
+        megkezdéséhez
+    </string>
+    <string name="notification">Értesítések mutatása</string>
+    <string name="notification_text">%s lépés kell még</string>
+    <string name="notification_title">A Pedometer számol</string>
+    <string name="pause">Megállít</string>
+    <string name="pause_on_power_summary">Szüneteltesse a Lépésszámlálót az eszköz töltése közben
+    </string>
+    <string name="pause_on_power_title">Szüneteljen töltés közben</string>
+    <string name="permission_external_storage">Nincs engedély a külső tárhely elérésére</string>
+    <string name="please_sign_in_with_your_google_account">A funkció használatához jelentkezzen be
+        Google+ fiókjával.
+    </string>
+    <string name="record">Felvétel</string>
+    <string name="resume">Folytat</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Keresés"</string>
+    <string name="set_goal">Cél beállítása</string>
+    <string name="set_step_size">Lépéshossz beállítása</string>
+    <string name="settings">Beállítások</string>
+    <string name="sign_in">Jelentkezzen be Google-fiókjával az Eredmények és a Ranglisták funkciók
+        használatához
+    </string>
+    <string name="sign_in_necessary">Bejelentkezés szükséges</string>
+    <string name="sign_out">Kijelentkezés</string>
+    <string name="signed_in">Bejelentkezve mint %s</string>
+    <string name="since">%s óta</string>
+    <string name="split_count">Osztott számlálás</string>
+    <string name="start">Indít</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="step_size">Lépés méret</string>
+    <string name="step_size_summary">Jelenlegi lépésméret: %1$.2f %2$s</string>
+    <string name="steps">lépések</string>
+    <string name="stop">Állj</string>
+    <string name="text_color">Szöveg színe:</string>
+    <string name="total">Összes</string>
+    <string name="total_last_7_days">7 napi összesen</string>
+    <string name="total_this_month">E hónapi összesen</string>
+    <string name="your_progress_will_be_shown_here_soon">E hónapi összesen</string>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Перайсці на галоўную старонку"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Перайсці ўверх"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Дадатковыя параметры"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Гатова"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Паказаць усе"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Выберыце праграму"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ВЫКЛ."</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"УКЛ."</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"Прабел"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Меню +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Пошук…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Выдаліць запыт"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Пошукавы запыт"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Пошук"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Адправіць запыт"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Галасавы пошук"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Абагуліць праз"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Абагуліць праз праграму \"<ns1:g id="APPLICATION_NAME">%s</ns1:g>\""</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Згарнуць"</string>
+    <string name="about">Звесткі</string>
+    <string name="about_app_version">Версія прыкладання: %s</string>
+    <string name="about_text_links">Гэтае прыкладанне своранае Thomas Hoffmann (<a href="https://www.j4velin.de">www.j4velin.de</a>) і выкарыстоўвае <a href="https://github.com/blackfizz/EazeGraph">EazeGraph</a>, створаную Paul Cech і <a href="https://github.com/attenzione/android-ColorPickerPreference">ColorPickerPreference</a>, створаную Sergey Margaritov.\n\nPedometer — праграма з адкрытым кодам! Атрымаць зыходны код і поўны спіс удзельнікаў можна на <a href="https://github.com/j4velin/Pedometer">GitHub</a>.\n\n</string>
+    <string name="account">Конт</string>
+    <string name="achievements">Дасягненні</string>
+    <string name="app_name">Pedometer</string>
+    <string name="average">Сярэдняе</string>
+    <string name="average_last_7_days">Сярэдняе за апошнія 7 дзён</string>
+    <string name="average_this_month">Сярэдняе за месяц</string>
+    <string name="background_color">Колер фону:</string>
+    <string name="close">закрыць</string>
+    <string name="data_saved">Даныя захаваныя ў %s</string>
+    <string name="entries_ignored">%d запісаў праігнаравана, бо яны не змяшчаюць правільных даных</string>
+    <string name="entries_imported">%d запісаў імпартавана</string>
+    <string name="entries_overwritten">%d запісаў перазапісана імпартаванымі данымі</string>
+    <string name="error_external_storage_not_available">Памылка: змешняе сховішча недаступнае</string>
+    <string name="error_file">Памылка доступу да файла: %s</string>
+    <string name="export_summary">Захоўвае вашы даныя ў CSV-файл</string>
+    <string name="export_title">Экспарт/Рэзерваванне</string>
+    <string name="faq">FAQ</string>
+    <string name="file_already_exists">Файд існуе. Вы ўпэўненыя, што хочаце перазапісаць яго?</string>
+    <string name="file_cant_read">Памылка: %s не чытаецца</string>
+    <string name="goal">Мэта</string>
+    <string name="goal_reached_notification">Мэта дасягнутая! %s крокаў і іх колькасць расце</string>
+    <string name="goal_summary">Дзейная мэта: %,d крокаў</string>
+    <string name="import_summary">Імпартуе раней захаваныя даныя</string>
+    <string name="import_title">Імпарт/Аднаўленне</string>
+    <string name="leaderboard">Лідары</string>
+    <string msgid="2939063992730535343" name="mr_button_content_description">"Трансліраваць"</string>
+    <string msgid="6073720094880410356" name="mr_cast_button_connected">"Трансліраваць. Падключана"</string>
+    <string msgid="6629927151350192407" name="mr_cast_button_connecting">"Трансліраваць. Ідзе падключэнне"</string>
+    <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"Трансліраваць. Адключана"</string>
+    <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"Інфармацыя адсутнічае"</string>
+    <string msgid="6114250663023140921" name="mr_chooser_searching">"Пошук прылад"</string>
+    <string msgid="1419936397646839840" name="mr_chooser_title">"Трансліраваць на прыладу"</string>
+    <string msgid="3330502667672708728" name="mr_controller_album_art">"Вокладка альбома"</string>
+    <string msgid="9171231064758955152" name="mr_controller_casting_screen">"Трансліруецца змесціва экрана"</string>
+    <string msgid="5684434439232634509" name="mr_controller_close_description">"Закрыць"</string>
+    <string msgid="2585048604188129749" name="mr_controller_collapse_group">"Згарнуць"</string>
+    <string msgid="7812275474138309497" name="mr_controller_disconnect">"Адлучыць"</string>
+    <string msgid="4521419834052044261" name="mr_controller_expand_group">"Разгарнуць"</string>
+    <string msgid="855271725131981086" name="mr_controller_no_info_available">"Інфармацыя адсутнічае"</string>
+    <string msgid="5495452265246139458" name="mr_controller_no_media_selected">"Мультымедыя не выбрана"</string>
+    <string msgid="747801650871398383" name="mr_controller_pause">"Прыпыніць"</string>
+    <string msgid="1253345086594430054" name="mr_controller_play">"Прайграць"</string>
+    <string msgid="5497722768305745508" name="mr_controller_stop">"Спыніць"</string>
+    <string msgid="804210341192624074" name="mr_controller_stop_casting">"Спыніць трансляцыю"</string>
+    <string msgid="2955862765169128170" name="mr_controller_volume_slider">"Рэгулятар гучнасці"</string>
+    <string msgid="4115858704575247342" name="mr_dialog_default_group_name">"Група"</string>
+    <string msgid="4307018456678388936" name="mr_dialog_groupable_header">"Дадаць прыладу"</string>
+    <string msgid="6068257520605505468" name="mr_dialog_transferable_header">"Прайграць на групе прылад"</string>
+    <string msgid="7449553026175453403" name="mr_system_route_name">"Сістэма"</string>
+    <string msgid="4088331695424166162" name="mr_user_route_category_name">"Прылады"</string>
+    <string name="no_sensor">Датчык не знойдзены</string>
+    <string name="no_sensor_explain">Гэтае прыкладанне патрабуе адмысловы апаратны датчык крокаў, якога няма на вашай прыладзе. Гэтае прыкладанне не будзе працаваць на вашай прыладзе.</string>
+    <string name="no_split_active">Адасоблены лічыльнік неактыўны. Націсніце «пачаць», каб лічыць крокі адсюль.</string>
+    <string name="notification">Паказваць абвесткі</string>
+    <string name="notification_settings">Налады абвестак</string>
+    <string name="notification_text">%s крокаў да мэты</string>
+    <string name="notification_title">Pedometer лічыць крокі</string>
+    <string name="permission_external_storage">Няма дазволу для доступу да знешняга сховішча</string>
+    <string name="please_sign_in_with_your_google_account">Калі ласка, зайдзіце пад вашым Google+-контам каб скарыстацца гэтай магчымасцю.</string>
+    <string name="record">Рэкорд</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Пошук"</string>
+    <string name="set_goal">Задаць мэту</string>
+    <string name="set_step_size">Задаць даўжыню кроку</string>
+    <string name="settings">Налады</string>
+    <string name="sign_in">Зайсці пад вашым Google-контам, каб выконваць Дасягненні і бачыць табліце лідараў</string>
+    <string name="sign_in_necessary">Уваход неабходны</string>
+    <string name="sign_out">Выйсці</string>
+    <string name="signed_in">Зайсці як %s</string>
+    <string name="since">Пачанаючы з %s</string>
+    <string name="split_count">Адасобіць лічыльнік</string>
+    <string name="start">Пачаць</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="step_size">Даўжыня кроку</string>
+    <string name="step_size_summary">Дзейная даўжыня: %1$.2f %2$s</string>
+    <string name="steps">крокі</string>
+    <string name="stop">Спыніць</string>
+    <string name="text_color">Колер тэксту:</string>
+    <string name="total">Усяго</string>
+    <string name="total_last_7_days">Усяго за апошнія 7 дзён</string>
+    <string name="total_this_month">Усяго за месяц</string>
+    <string name="your_progress_will_be_shown_here_soon">Ваш прагрэс будзе паказаны тут у бліжэйшы час</string>
+</resources>

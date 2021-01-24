@@ -1,0 +1,41 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/settings"/>
+    <item
+        android:id="@+id/action_achievements"
+        android:orderInCategory="100"
+        android:title="@string/achievements"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_leaderboard"
+        android:orderInCategory="100"
+        android:title="@string/leaderboard"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_faq"
+        android:orderInCategory="100"
+        android:title="@string/faq"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_split_count"
+        android:orderInCategory="100"
+        android:title="@string/split_count"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="@string/about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/media_route_menu_item"
+        android:orderInCategory="101"
+        android:title="Cast"
+        app:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"
+        tools:icon="@drawable/mr_button_light" />
+
+</menu>

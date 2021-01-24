@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Portami a casa"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Torna indietro"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Mostra tutto"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Scelta di un\'app"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"OFF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ON"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"ALT +"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"CTRL +"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"CANC"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"INVIO"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"FUNZIONE +"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"META +"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"MAIUSC +"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"SPAZIO"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"SYM +"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"MENU +"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Condividi tramite <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <string name="about">Info</string>
+    <string name="about_app_version">Versione App: %s</string>
+    <string name="about_text_links">Quest\'app è stata creata da Thomas Hoffmann (<a href="https://www.j4velin.de">www.j4velin.de</a>) e si serve <a href="https://github.com/blackfizz/EazeGraph">EazeGraph</a> by Paul Cech and <a href="https://github.com/attenzione/android-ColorPickerPreference">ColorPickerPreference</a> by Sergey Margaritov.\n\nPedometro è open source! Trovi il codice e la lista di chi ha contribuito qui <a href="https://github.com/j4velin/Pedometer">GitHub</a>.\n\n (</string>
+    <string name="achievements">Risultati</string>
+    <string name="app_name">Pedometro</string>
+    <string name="average">In media</string>
+    <string name="average_last_7_days">In media negli ultimi 7 giorni</string>
+    <string name="average_this_month">In media questo mese</string>
+    <string name="background_color">Colore di sfondo:</string>
+    <string name="close">chiudi</string>
+    <string name="data_saved">Dati Salvati in %s</string>
+    <string name="entries_ignored">%d voci sono state saltate poiché non contenevano dati validi</string>
+    <string name="entries_imported">Sono state importate %d voci</string>
+    <string name="error_external_storage_not_available">Errore: memoria esterna non disponibile</string>
+    <string name="error_file">Errore nell\'accedere al file: %s</string>
+    <string name="export_summary">Salva i tuoi dati in un file .csv</string>
+    <string name="export_title">Esporta/Backup</string>
+    <string name="faq">FAQ</string>
+    <string name="file_already_exists">File già esistente. Sei sicuro di volerlo sovrascrivere?</string>
+    <string name="file_cant_read">Errore: %s non può essere letto</string>
+    <string name="goal">Obiettivo</string>
+    <string name="goal_reached_notification">Obiettivo raggiunto! %s passi </string>
+    <string name="goal_summary">Obiettivo attuale: %,d passi</string>
+    <string name="import_summary">Importa i dati salvati in precedenza</string>
+    <string name="import_title">Importa/Ripristina</string>
+    <string name="ispaused">Pedometro in pausa</string>
+    <string name="leaderboard">Classifiche</string>
+    <string msgid="2939063992730535343" name="mr_button_content_description">"Trasmetti"</string>
+    <string msgid="6073720094880410356" name="mr_cast_button_connected">"Trasmetti. Connesso"</string>
+    <string msgid="6629927151350192407" name="mr_cast_button_connecting">"Trasmetti. Connessione"</string>
+    <string msgid="8071109333469380363" name="mr_cast_button_disconnected">"Trasmetti. Disconnesso"</string>
+    <string msgid="2175930138959078155" name="mr_cast_dialog_title_view_placeholder">"Nessuna informazione disponibile"</string>
+    <string msgid="6114250663023140921" name="mr_chooser_searching">"Ricerca di dispositivi"</string>
+    <string msgid="1419936397646839840" name="mr_chooser_title">"Trasmetti a"</string>
+    <string msgid="3330502667672708728" name="mr_controller_album_art">"Copertina dell\'album"</string>
+    <string msgid="9171231064758955152" name="mr_controller_casting_screen">"Trasmissione dello schermo attiva"</string>
+    <string msgid="5684434439232634509" name="mr_controller_close_description">"Chiudi"</string>
+    <string msgid="2585048604188129749" name="mr_controller_collapse_group">"Comprimi"</string>
+    <string msgid="7812275474138309497" name="mr_controller_disconnect">"Disconnetti"</string>
+    <string msgid="4521419834052044261" name="mr_controller_expand_group">"Espandi"</string>
+    <string msgid="855271725131981086" name="mr_controller_no_info_available">"Nessuna informazione disponibile"</string>
+    <string msgid="5495452265246139458" name="mr_controller_no_media_selected">"Nessun contenuto multimediale selezionato"</string>
+    <string msgid="747801650871398383" name="mr_controller_pause">"Metti in pausa"</string>
+    <string msgid="1253345086594430054" name="mr_controller_play">"Riproduci"</string>
+    <string msgid="5497722768305745508" name="mr_controller_stop">"Interrompi"</string>
+    <string msgid="804210341192624074" name="mr_controller_stop_casting">"Interrompi trasmissione"</string>
+    <string msgid="2955862765169128170" name="mr_controller_volume_slider">"Dispositivo di scorrimento del volume"</string>
+    <string msgid="4115858704575247342" name="mr_dialog_default_group_name">"Gruppo"</string>
+    <string msgid="4307018456678388936" name="mr_dialog_groupable_header">"Aggiungi un dispositivo"</string>
+    <string msgid="6068257520605505468" name="mr_dialog_transferable_header">"Riproduci su un gruppo"</string>
+    <string msgid="7449553026175453403" name="mr_system_route_name">"Sistema"</string>
+    <string msgid="4088331695424166162" name="mr_user_route_category_name">"Dispositivi"</string>
+    <string name="no_split_active">Nessun contatore parziale arrivo. Premi per iniziare il conteggio dei passi da qui</string>
+    <string name="notification">Mostra notifica</string>
+    <string name="notification_text">%s passi mancanti</string>
+    <string name="notification_title">Sto contando i passi</string>
+    <string name="pause">In pausa</string>
+    <string name="pause_on_power_summary">Metti in pausa il Pedometro quando il dispositivo è in carica</string>
+    <string name="pause_on_power_title">In pausa mentre è in carica</string>
+    <string name="please_sign_in_with_your_google_account">Per favore fai il login con il tuo account Google+ per usare questa funzionalità.</string>
+    <string name="record">Record</string>
+    <string name="resume">Riprendi</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Cerca"</string>
+    <string name="set_goal">Imposta obiettivo</string>
+    <string name="set_step_size">Imposta lunghezza del passo</string>
+    <string name="settings">Impostazioni</string>
+    <string name="sign_in">Esegui il login con il tuo account Google per utilizzare le funzionalità "Risultati" e "Classifiche"</string>
+    <string name="sign_in_necessary">Devi effettuare il login</string>
+    <string name="sign_out">Disconnettiti</string>
+    <string name="signed_in">Connesso come %s</string>
+    <string name="since">Dal %s</string>
+    <string name="split_count">Contatore parziale</string>
+    <string name="start">Start</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="step_size">Lunghezza passo</string>
+    <string name="step_size_summary">Lunghezza del passo attuale: %1$.2f %2$s</string>
+    <string name="steps">passi</string>
+    <string name="stop">Stop</string>
+    <string name="text_color">Colore del testo:</string>
+    <string name="total">In totale</string>
+    <string name="total_last_7_days">In totale negli ultimi 7 giorni</string>
+    <string name="total_this_month">In totale questo mese</string>
+    <string name="your_progress_will_be_shown_here_soon">I tuoi progressi saranno presto visibili qui</string>
+</resources>
