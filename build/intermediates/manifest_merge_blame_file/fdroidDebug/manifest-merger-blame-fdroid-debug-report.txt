@@ -44,135 +44,134 @@
 25-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:21:9-43
 26        android:label="@string/app_name"
 26-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:22:9-41
-27        android:testOnly="true"
-28        android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar" >
-28-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:23:9-79
-29        <activity
-29-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:26:9-35:20
-30            android:name="de.j4velin.pedometer.ui.Activity_Main"
-30-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:27:13-45
-31            android:label="@string/app_name"
-31-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:28:13-45
-32            android:launchMode="singleTask" >
-32-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:29:13-44
-33            <intent-filter>
-33-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:30:13-34:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:31:17-68
-34-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:31:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:33:17-76
-36-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:33:27-74
-37            </intent-filter>
-38        </activity>
-39
-40        <receiver android:name="de.j4velin.pedometer.BootReceiver" >
-40-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:37:9-41:20
-40-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:37:19-47
-41            <intent-filter>
-41-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:38:13-40:29
-42                <action android:name="android.intent.action.BOOT_COMPLETED" />
-42-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:39:17-78
-42-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:39:25-76
-43            </intent-filter>
-44        </receiver>
-45        <receiver android:name="de.j4velin.pedometer.AppUpdatedReceiver" >
-45-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:42:9-46:20
-45-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:42:19-53
-46            <intent-filter>
-46-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:43:13-45:29
-47                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-47-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:44:17-83
-47-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:44:25-81
-48            </intent-filter>
-49        </receiver>
-50
-51        <service android:name="de.j4velin.pedometer.SensorListener" />
-51-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:48:9-49:45
-51-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:49:13-43
-52        <service
-52-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:51:9-67:19
-53            android:name="de.j4velin.pedometer.widget.DashClock"
-53-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:52:13-45
-54            android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA" >
-54-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:53:13-98
-55            <intent-filter>
-55-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:54:13-56:29
-56                <action android:name="com.google.android.apps.dashclock.Extension" />
-56-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:55:17-85
-56-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:55:25-83
-57            </intent-filter>
-58
-59            <meta-data
-59-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:58:13-60:36
-60                android:name="protocolVersion"
-60-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:59:17-47
-61                android:value="2" />
-61-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:60:17-34
-62            <meta-data
-62-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:61:13-63:39
-63                android:name="worldReadable"
-63-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:62:17-45
-64                android:value="true" />
-64-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:63:17-37
-65            <meta-data
-65-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:64:13-66:65
-66                android:name="description"
-66-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:65:17-43
-67                android:value="Displays the steps taken today" />
-67-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:66:17-63
-68        </service>
-69
-70        <activity
-70-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:69:9-75:20
-71            android:name="de.j4velin.pedometer.widget.WidgetConfig"
-71-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:70:13-48
-72            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" >
-72-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:71:13-73
-73            <intent-filter>
-73-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:72:13-74:29
-74                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
-74-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:73:17-86
-74-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:73:25-84
-75            </intent-filter>
-76        </activity>
-77
-78        <receiver android:name="de.j4velin.pedometer.widget.Widget" >
-78-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:77:9-85:20
-78-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:77:19-48
-79            <intent-filter>
-79-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:78:13-80:29
-80                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
-80-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:79:17-83
-80-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:79:25-81
-81            </intent-filter>
-82
-83            <meta-data
-83-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:82:13-84:49
-84                android:name="android.appwidget.provider"
-84-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:83:17-58
-85                android:resource="@xml/widget" />
-85-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:84:17-47
-86        </receiver>
-87
-88        <service
-88-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:87:9-88:76
-89            android:name="de.j4velin.pedometer.widget.WidgetUpdateService"
-89-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:87:18-60
-90            android:exported="true"
-90-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:87:61-84
-91            android:permission="android.permission.BIND_JOB_SERVICE" />
-91-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:88:18-74
-92
-93        <activity
-93-->[com.github.j4velin.colorpicker:colorpicker:1.20.6] C:\Users\SHUBHAM\.gradle\caches\transforms-2\files-2.1\fca81572ec9feb50c7a06fb77e8b64db\jetified-colorpicker-1.20.6\AndroidManifest.xml:12:9-15:54
-94            android:name="de.j4velin.lib.colorpicker.ExtractFromPhoto"
-94-->[com.github.j4velin.colorpicker:colorpicker:1.20.6] C:\Users\SHUBHAM\.gradle\caches\transforms-2\files-2.1\fca81572ec9feb50c7a06fb77e8b64db\jetified-colorpicker-1.20.6\AndroidManifest.xml:13:13-71
-95            android:hardwareAccelerated="false"
-95-->[com.github.j4velin.colorpicker:colorpicker:1.20.6] C:\Users\SHUBHAM\.gradle\caches\transforms-2\files-2.1\fca81572ec9feb50c7a06fb77e8b64db\jetified-colorpicker-1.20.6\AndroidManifest.xml:14:13-48
-96            android:theme="@style/LibTheme.Dialog" />
-96-->[com.github.j4velin.colorpicker:colorpicker:1.20.6] C:\Users\SHUBHAM\.gradle\caches\transforms-2\files-2.1\fca81572ec9feb50c7a06fb77e8b64db\jetified-colorpicker-1.20.6\AndroidManifest.xml:15:13-51
-97    </application>
-98
-99</manifest>
+27        android:theme="@android:style/Theme.DeviceDefault.Light.DarkActionBar" >
+27-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:23:9-79
+28        <activity
+28-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:26:9-35:20
+29            android:name="de.j4velin.pedometer.ui.Activity_Main"
+29-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:27:13-45
+30            android:label="@string/app_name"
+30-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:28:13-45
+31            android:launchMode="singleTask" >
+31-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:29:13-44
+32            <intent-filter>
+32-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:30:13-34:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:31:17-68
+33-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:31:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:33:17-76
+35-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:33:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <receiver android:name="de.j4velin.pedometer.BootReceiver" >
+39-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:37:9-41:20
+39-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:37:19-47
+40            <intent-filter>
+40-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:38:13-40:29
+41                <action android:name="android.intent.action.BOOT_COMPLETED" />
+41-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:39:17-78
+41-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:39:25-76
+42            </intent-filter>
+43        </receiver>
+44        <receiver android:name="de.j4velin.pedometer.AppUpdatedReceiver" >
+44-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:42:9-46:20
+44-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:42:19-53
+45            <intent-filter>
+45-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:43:13-45:29
+46                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+46-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:44:17-83
+46-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:44:25-81
+47            </intent-filter>
+48        </receiver>
+49
+50        <service android:name="de.j4velin.pedometer.SensorListener" />
+50-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:48:9-49:45
+50-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:49:13-43
+51        <service
+51-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:51:9-67:19
+52            android:name="de.j4velin.pedometer.widget.DashClock"
+52-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:52:13-45
+53            android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA" >
+53-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:53:13-98
+54            <intent-filter>
+54-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:54:13-56:29
+55                <action android:name="com.google.android.apps.dashclock.Extension" />
+55-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:55:17-85
+55-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:55:25-83
+56            </intent-filter>
+57
+58            <meta-data
+58-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:58:13-60:36
+59                android:name="protocolVersion"
+59-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:59:17-47
+60                android:value="2" />
+60-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:60:17-34
+61            <meta-data
+61-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:61:13-63:39
+62                android:name="worldReadable"
+62-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:62:17-45
+63                android:value="true" />
+63-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:63:17-37
+64            <meta-data
+64-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:64:13-66:65
+65                android:name="description"
+65-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:65:17-43
+66                android:value="Displays the steps taken today" />
+66-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:66:17-63
+67        </service>
+68
+69        <activity
+69-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:69:9-75:20
+70            android:name="de.j4velin.pedometer.widget.WidgetConfig"
+70-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:70:13-48
+71            android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" >
+71-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:71:13-73
+72            <intent-filter>
+72-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:72:13-74:29
+73                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+73-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:73:17-86
+73-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:73:25-84
+74            </intent-filter>
+75        </activity>
+76
+77        <receiver android:name="de.j4velin.pedometer.widget.Widget" >
+77-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:77:9-85:20
+77-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:77:19-48
+78            <intent-filter>
+78-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:78:13-80:29
+79                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+79-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:79:17-83
+79-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:79:25-81
+80            </intent-filter>
+81
+82            <meta-data
+82-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:82:13-84:49
+83                android:name="android.appwidget.provider"
+83-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:83:17-58
+84                android:resource="@xml/widget" />
+84-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:84:17-47
+85        </receiver>
+86
+87        <service
+87-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:87:9-88:76
+88            android:name="de.j4velin.pedometer.widget.WidgetUpdateService"
+88-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:87:18-60
+89            android:exported="true"
+89-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:87:61-84
+90            android:permission="android.permission.BIND_JOB_SERVICE" />
+90-->D:\AndroidStudioProjects\Facche\stopwatch\src\main\AndroidManifest.xml:88:18-74
+91
+92        <activity
+92-->[com.github.j4velin.colorpicker:colorpicker:1.20.6] C:\Users\SHUBHAM\.gradle\caches\transforms-2\files-2.1\fca81572ec9feb50c7a06fb77e8b64db\jetified-colorpicker-1.20.6\AndroidManifest.xml:12:9-15:54
+93            android:name="de.j4velin.lib.colorpicker.ExtractFromPhoto"
+93-->[com.github.j4velin.colorpicker:colorpicker:1.20.6] C:\Users\SHUBHAM\.gradle\caches\transforms-2\files-2.1\fca81572ec9feb50c7a06fb77e8b64db\jetified-colorpicker-1.20.6\AndroidManifest.xml:13:13-71
+94            android:hardwareAccelerated="false"
+94-->[com.github.j4velin.colorpicker:colorpicker:1.20.6] C:\Users\SHUBHAM\.gradle\caches\transforms-2\files-2.1\fca81572ec9feb50c7a06fb77e8b64db\jetified-colorpicker-1.20.6\AndroidManifest.xml:14:13-48
+95            android:theme="@style/LibTheme.Dialog" />
+95-->[com.github.j4velin.colorpicker:colorpicker:1.20.6] C:\Users\SHUBHAM\.gradle\caches\transforms-2\files-2.1\fca81572ec9feb50c7a06fb77e8b64db\jetified-colorpicker-1.20.6\AndroidManifest.xml:15:13-51
+96    </application>
+97
+98</manifest>

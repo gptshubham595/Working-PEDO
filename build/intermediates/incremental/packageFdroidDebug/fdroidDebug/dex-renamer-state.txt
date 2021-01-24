@@ -1,4 +1,0 @@
-#Mon Jan 25 02:51:17 IST 2021
-base.0=/home/tushar/Pictures/Pedometer/build/intermediates/transforms/dexMerger/fdroid/debug/0
-path.0=classes.dex
-renamed.0=classes.dex

@@ -91,40 +91,40 @@ public class Fragment_Overview extends Fragment implements SensorEventListener {
 
         pg = (PieChart) v.findViewById(R.id.graph);
 
-//        mStopWatch = (Chronometer) v.findViewById(R.id.chronometer);
-//        mStopWatch.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener(){
-//            @Override
-//            public void onChronometerTick(Chronometer cArg) {
-//                long time = SystemClock.elapsedRealtime() - cArg.getBase();
-//                int h   = (int)(time /3600000);
-//                int m = (int)(time - h*3600000)/60000;
-//                int s= (int)(time - h*3600000- m*60000)/1000 ;
-//                String hh = h < 10 ? "0"+h: h+"";
-//                String mm = m < 10 ? "0"+m: m+"";
-//                String ss = s < 10 ? "0"+s: s+"";
-//                cArg.setText(hh+":"+mm+":"+ss);
-//            }
-//        });
-//        mStopWatch.setBase(SystemClock.elapsedRealtime());
-//        final Button button =  v.findViewById(R.id.startstop);
-//        button.setTag(1);
-//        button.setText("START");
-//        button.setOnClickListener( new View.OnClickListener() {
-//            @Override
-//            public void onClick (View v) {
-//                final int status =(Integer) v.getTag();
-//                if(status == 1) {
-//                    mStopWatch.start();
-//                    button.setText("STOP");
-//                    v.setTag(0); //pause
-//                } else {
-//                    mStopWatch.setBase(SystemClock.elapsedRealtime());
-//                    mStopWatch.stop();
-//                    button.setText("START");
-//                    v.setTag(1); //pause
-//                }
-//            }
-//        });
+        Chronometer mStopWatch = (Chronometer) v.findViewById(R.id.chronometer);
+        mStopWatch.setOnChronometerTickListener(new Chronometer.OnChronometerTickListener(){
+            @Override
+            public void onChronometerTick(Chronometer cArg) {
+                long time = SystemClock.elapsedRealtime() - cArg.getBase();
+                int h   = (int)(time /3600000);
+                int m = (int)(time - h*3600000)/60000;
+                int s= (int)(time - h*3600000- m*60000)/1000 ;
+                String hh = h < 10 ? "0"+h: h+"";
+                String mm = m < 10 ? "0"+m: m+"";
+                String ss = s < 10 ? "0"+s: s+"";
+                cArg.setText(hh+":"+mm+":"+ss);
+            }
+        });
+        mStopWatch.setBase(SystemClock.elapsedRealtime());
+        final Button button = v.findViewById(R.id.startstop);
+        button.setTag(1);
+        button.setText("START");
+        button.setOnClickListener( new View.OnClickListener() {
+            @Override
+            public void onClick (View v) {
+                final int status =(Integer) v.getTag();
+                if(status == 1) {
+                    mStopWatch.start();
+                    button.setText("STOP");
+                    v.setTag(0); //pause
+                } else {
+                    mStopWatch.setBase(SystemClock.elapsedRealtime());
+                    mStopWatch.stop();
+                    button.setText("START");
+                    v.setTag(1); //pause
+                }
+            }
+        });
 
         // slice for the steps taken today
         sliceCurrent = new PieModel("", 0, Color.parseColor("#99CC00"));

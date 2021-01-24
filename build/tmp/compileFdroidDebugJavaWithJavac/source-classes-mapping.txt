@@ -6,6 +6,8 @@ de/j4velin/pedometer/ui/Fragment_Overview.java
  de.j4velin.pedometer.ui.Fragment_Overview$2
  de.j4velin.pedometer.ui.Fragment_Overview$3
  de.j4velin.pedometer.ui.Fragment_Overview$4
+ de.j4velin.pedometer.ui.Fragment_Overview$5
+ de.j4velin.pedometer.ui.Fragment_Overview$6
 de/j4velin/pedometer/BuildConfig.java
  de.j4velin.pedometer.BuildConfig
 de/j4velin/pedometer/util/Util.java
