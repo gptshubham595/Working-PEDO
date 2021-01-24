@@ -1,0 +1,73 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep class de.j4velin.lib.colorpicker.ExtractFromPhoto { <init>(); }
+-keep class de.j4velin.pedometer.AppUpdatedReceiver { <init>(); }
+-keep class de.j4velin.pedometer.BootReceiver { <init>(); }
+-keep class de.j4velin.pedometer.SensorListener { <init>(); }
+-keep class de.j4velin.pedometer.ui.Activity_Main { <init>(); }
+-keep class de.j4velin.pedometer.widget.DashClock { <init>(); }
+-keep class de.j4velin.pedometer.widget.Widget { <init>(); }
+-keep class de.j4velin.pedometer.widget.WidgetConfig { <init>(); }
+-keep class de.j4velin.pedometer.widget.WidgetUpdateService { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.mediarouter.app.MediaRouteActionProvider { <init>(android.content.Context); }
+
+-keep class androidx.mediarouter.app.MediaRouteExpandCollapseButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.mediarouter.app.MediaRouteVolumeSlider { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.mediarouter.app.OverlayListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.google.android.gms.common.SignInButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class de.j4velin.lib.colorpicker.ColorPickerPanelView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class de.j4velin.lib.colorpicker.ColorPickerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class de.j4velin.lib.colorpicker.ColorPreviewButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.eazegraph.lib.charts.BarChart { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class org.eazegraph.lib.charts.PieChart { <init>(android.content.Context, android.util.AttributeSet); }
+

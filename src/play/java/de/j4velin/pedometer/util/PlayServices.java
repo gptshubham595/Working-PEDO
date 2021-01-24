@@ -178,7 +178,7 @@ public abstract class PlayServices {
             }
             if (!prefs.getBoolean("achievement_stamina6", false)) {
                 if (daysForStamina >= 100) {
-                    unlockAchievement(gc, context.getString(R.string.achievement_stamina_vi));
+                    unlockAchievement(gc, "achievement_stamina_vi");
                     prefs.edit().putBoolean("achievement_stamina6", true).apply();
                 }
             }
@@ -211,7 +211,7 @@ public abstract class PlayServices {
             }
             if (!prefs.getBoolean("achievement_marathon5", false)) {
                 if (totalSteps > 1000000) {
-                    unlockAchievement(gc, context.getString(R.string.achievement_marathon_v));
+                    unlockAchievement(gc, "achievement_marathon_v");
                     prefs.edit().putBoolean("achievement_marathon5", true).apply();
                 }
             }
@@ -221,20 +221,19 @@ public abstract class PlayServices {
                 float average = totalSteps / (float) days;
                 if (!prefs.getBoolean("achievement_continual", false)) {
                     if (average >= 7500) {
-                        unlockAchievement(gc, context.getString(R.string.achievement_continual_i));
+                        unlockAchievement(gc, "achievement_continual_i");
                         prefs.edit().putBoolean("achievement_continual", true).apply();
                     }
                 }
                 if (!prefs.getBoolean("achievement_continual2", false)) {
                     if (average >= 10000) {
-                        unlockAchievement(gc, context.getString(R.string.achievement_continual_ii));
+                        unlockAchievement(gc,"achievement_continual_ii");
                         prefs.edit().putBoolean("achievement_continual2", true).apply();
                     }
                 }
                 if (!prefs.getBoolean("achievement_continual3", false)) {
                     if (average >= 12500) {
-                        unlockAchievement(gc,
-                                context.getString(R.string.achievement_continual_iii));
+                        unlockAchievement(gc, "achievement_continual_iii");
                         prefs.edit().putBoolean("achievement_continual3", true).apply();
                     }
                 }

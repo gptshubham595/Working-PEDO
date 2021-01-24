@@ -1344,6 +1344,7 @@ string about_app_version
 string about_text_links
 string account
 string achievements
+string app_id
 string app_name
 string average
 string average_last_7_days

@@ -1,0 +1,4 @@
+#Mon Jan 25 04:08:50 IST 2021
+base.0=D\:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\dex\\playRelease\\minifyPlayReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

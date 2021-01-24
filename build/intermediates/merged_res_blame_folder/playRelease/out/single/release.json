@@ -1,0 +1,138 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-xhdpi_ic_notification.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-xhdpi\\ic_notification.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-xxhdpi_ic_dashclock.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-xxhdpi\\ic_dashclock.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-hdpi_ic_pause.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-hdpi\\ic_pause.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-mdpi_ic_notification.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-mdpi\\ic_notification.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-mdpi_ic_dashclock.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-mdpi\\ic_dashclock.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\layout-land_statistics.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\layout-land\\statistics.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-xxhdpi_ic_resume.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-xxhdpi\\ic_resume.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\layout_statistics.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\layout\\statistics.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\xml_widget.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\xml\\widget.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\layout_widget.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\layout\\widget.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-xhdpi_ic_pause.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-xhdpi\\ic_pause.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\layout_dialog_split.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\layout\\dialog_split.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-xxhdpi_ic_notification.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-xxhdpi\\ic_notification.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\layout_stepsize.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\layout\\stepsize.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\layout_fragment_overview.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\layout\\fragment_overview.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-mdpi_ic_resume.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-mdpi\\ic_resume.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\menu_main.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\xml-v26_settings.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\xml-v26\\settings.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-hdpi_ic_resume.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-hdpi\\ic_resume.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\layout-land_fragment_overview.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\layout-land\\fragment_overview.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\layout_signin.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\layout\\signin.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-xhdpi_ic_dashclock.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-xhdpi\\ic_dashclock.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-xxhdpi_ic_pause.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-xxhdpi\\ic_pause.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-hdpi_ic_notification.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-hdpi\\ic_notification.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-mdpi_ic_pause.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-mdpi\\ic_pause.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\xml_settings.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\xml\\settings.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\layout_widgetconfig.xml.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\layout\\widgetconfig.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-xhdpi_ic_resume.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-xhdpi\\ic_resume.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\res\\merged\\play\\release\\drawable-hdpi_ic_dashclock.png.flat",
+        "source": "D:\\AndroidStudioProjects\\Facche\\stopwatch\\src\\main\\res\\drawable-hdpi\\ic_dashclock.png"
+    }
+]
