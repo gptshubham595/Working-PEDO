@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-package de.j4velin.pedometer.widget;
+package de.j4velin.pedometer.PEDOMETER.widget;
 
 import android.content.Intent;
 
 import com.google.android.apps.dashclock.api.DashClockExtension;
 import com.google.android.apps.dashclock.api.ExtensionData;
 
-import de.j4velin.pedometer.Database;
+import de.j4velin.pedometer.PEDOMETER.Database;
 import de.j4velin.pedometer.R;
-import de.j4velin.pedometer.ui.Activity_Main;
-import de.j4velin.pedometer.ui.Fragment_Overview;
-import de.j4velin.pedometer.util.Util;
+import de.j4velin.pedometer.PEDOMETER.ui.Activity_Main;
+import de.j4velin.pedometer.PEDOMETER.ui.Fragment_Overview;
+import de.j4velin.pedometer.PEDOMETER.util.Util;
 
 /**
  * Class for providing a DashClock (https://code.google.com/p/dashclock)

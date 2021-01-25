@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package de.j4velin.pedometer.widget;
+package de.j4velin.pedometer.PEDOMETER.widget;
 
 import android.app.Activity;
 import android.appwidget.AppWidgetManager;

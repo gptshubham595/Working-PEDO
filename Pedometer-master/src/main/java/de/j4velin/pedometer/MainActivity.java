@@ -8,7 +8,6 @@ import androidx.multidex.BuildConfig;
 import android.Manifest;
 import android.app.AlertDialog;
 import android.app.Fragment;
-import android.app.FragmentTransaction;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -21,11 +20,10 @@ import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
-import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItems;
 
-import de.j4velin.pedometer.ui.Activity_Main;
-import de.j4velin.pedometer.ui.Fragment_Overview;
-import de.j4velin.pedometer.ui.Fragment_Settings;
+import de.j4velin.pedometer.PEDOMETER.SensorListener;
+import de.j4velin.pedometer.PEDOMETER.ui.Fragment_Overview;
+import de.j4velin.pedometer.PEDOMETER.ui.Fragment_Settings;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
     FragmentPagerItemAdapter adapter;

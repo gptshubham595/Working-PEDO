@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package de.j4velin.pedometer;
+package de.j4velin.pedometer.PEDOMETER;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -22,8 +22,9 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Build;
 
-import de.j4velin.pedometer.util.API26Wrapper;
-import de.j4velin.pedometer.util.Logger;
+import de.j4velin.pedometer.BuildConfig;
+import de.j4velin.pedometer.PEDOMETER.util.API26Wrapper;
+import de.j4velin.pedometer.PEDOMETER.util.Logger;
 
 public class BootReceiver extends BroadcastReceiver {
 

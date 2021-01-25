@@ -37,20 +37,20 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".BootReceiver" >
+        <receiver android:name=".PEDOMETER.BootReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
-        <receiver android:name=".AppUpdatedReceiver" >
+        <receiver android:name=".PEDOMETER.AppUpdatedReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
             </intent-filter>
         </receiver>
 
-        <service android:name=".SensorListener" />
+        <service android:name=".PEDOMETER.SensorListener" />
         <service
-            android:name=".widget.DashClock"
+            android:name=".PEDOMETER.widget.DashClock"
             android:permission="com.google.android.apps.dashclock.permission.READ_EXTENSION_DATA" >
             <intent-filter>
                 <action android:name="com.google.android.apps.dashclock.Extension" />
@@ -68,14 +68,14 @@
         </service>
 
         <activity
-            android:name=".widget.WidgetConfig"
+            android:name=".PEDOMETER.widget.WidgetConfig"
             android:theme="@android:style/Theme.Holo.Dialog.NoActionBar" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
             </intent-filter>
         </activity>
 
-        <receiver android:name=".widget.Widget" >
+        <receiver android:name=".PEDOMETER.widget.Widget" >
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -86,7 +86,7 @@
         </receiver>
 
         <service
-            android:name=".widget.WidgetUpdateService"
+            android:name=".PEDOMETER.widget.WidgetUpdateService"
             android:exported="true"
             android:permission="android.permission.BIND_JOB_SERVICE" />
     </application>

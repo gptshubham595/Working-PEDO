@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package de.j4velin.pedometer.widget;
+package de.j4velin.pedometer.PEDOMETER.widget;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -26,7 +26,7 @@ import android.graphics.Color;
 import android.widget.RemoteViews;
 
 import de.j4velin.pedometer.R;
-import de.j4velin.pedometer.ui.Activity_Main;
+import de.j4velin.pedometer.PEDOMETER.ui.Activity_Main;
 
 public class Widget extends AppWidgetProvider {
 

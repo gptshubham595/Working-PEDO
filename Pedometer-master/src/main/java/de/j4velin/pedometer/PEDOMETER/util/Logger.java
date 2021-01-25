@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package de.j4velin.pedometer.util;
+package de.j4velin.pedometer.PEDOMETER.util;
 
 import android.database.Cursor;
 import android.os.Environment;

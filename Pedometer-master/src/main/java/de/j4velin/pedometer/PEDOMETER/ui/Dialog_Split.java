@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package de.j4velin.pedometer.ui;
+package de.j4velin.pedometer.PEDOMETER.ui;
 
 import android.app.Dialog;
 import android.content.Context;
