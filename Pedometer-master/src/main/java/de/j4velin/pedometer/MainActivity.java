@@ -135,16 +135,23 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     private boolean loadFragment(Fragment fragment) {
         //switching fragment
         if (fragment != null) {
-
-            Fragment newFragment = new Fragment_Overview();
-            FragmentTransaction transaction = getFragmentManager().beginTransaction();
-
-            transaction.replace(android.R.id.content, newFragment);
-            // Commit the transaction
-            transaction.commit();
-
+            getFragmentManager()
+                    .beginTransaction()
+                    .replace(R.id.fragment_container, fragment)
+                    .commit();
             return true;
         }
+//        if (fragment != null) {
+//
+//            Fragment newFragment = new Fragment_Overview();
+//            FragmentTransaction transaction = getFragmentManager().beginTransaction();
+//
+//            transaction.replace(android.R.id.content, newFragment);
+//            // Commit the transaction
+//            transaction.commit();
+//
+//            return true;
+//        }
         return false;
     }
 }
