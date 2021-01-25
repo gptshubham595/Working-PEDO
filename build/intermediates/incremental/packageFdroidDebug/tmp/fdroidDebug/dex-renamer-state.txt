@@ -1,7 +1,0 @@
-#Mon Jan 25 04:01:17 IST 2021
-base.0=D\:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\dex\\fdroidDebug\\mergeExtDexFdroidDebug\\classes.dex
-path.1=classes.dex
-renamed.1=classes2.dex
-path.0=classes.dex
-renamed.0=classes.dex
-base.1=D\:\\AndroidStudioProjects\\Facche\\stopwatch\\build\\intermediates\\dex\\fdroidDebug\\mergeProjectDexFdroidDebug\\classes.dex

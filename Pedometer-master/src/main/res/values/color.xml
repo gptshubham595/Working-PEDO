@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F9F7F2</color>
+    <color name="colorPrimaryDark">#F8F5ED</color>
+    <color name="colorAccent">#DB643E</color>
+    <color name="dark">#BF202020</color>
+    <color name="light">#5B464444</color>
+    <color name="rocket_fire">#EFC75E</color>
+    <color name="colorNavIcon">#dae9f6</color>
+    <color name="colorNavText">#01294b</color>
+    <color name="blue_1">#eae9fe</color>
+    <color name="blue_2">#ccc8fc</color>
+    <color name="blue_3">#ada8fb</color>
+    <color name="blue_4">#8f87f9</color>
+    <color name="blue_5">#7067f8</color>
+</resources>
