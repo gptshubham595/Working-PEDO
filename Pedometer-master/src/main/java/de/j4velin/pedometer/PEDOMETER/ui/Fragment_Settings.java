@@ -125,7 +125,7 @@ public class Fragment_Settings extends PreferenceFragment implements OnPreferenc
     @Override
     public void onResume() {
         super.onResume();
-        getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
+//        getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
         if (Build.VERSION.SDK_INT >= 26) { // notification settings might have changed
             API26Wrapper.startForegroundService(getActivity(),
                     new Intent(getActivity(), SensorListener.class));
@@ -160,7 +160,7 @@ public class Fragment_Settings extends PreferenceFragment implements OnPreferenc
                 builder = new AlertDialog.Builder(getActivity());
                 final NumberPicker np = new NumberPicker(getActivity());
                 np.setMinValue(1);
-                np.setMaxValue(100000);
+                np.setMaxValue(6667);
                 np.setValue(prefs.getInt("goal", 6667));
                 builder.setView(np);
                 builder.setTitle(R.string.set_goal);

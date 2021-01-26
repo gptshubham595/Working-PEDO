@@ -17,6 +17,7 @@ package de.j4velin.pedometer.PEDOMETER.ui;
 
 import android.app.AlertDialog;
 import android.app.Fragment;
+import android.app.Notification;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -158,6 +159,7 @@ public class Fragment_Overview extends Fragment implements SensorEventListener {
         stepsView.setText(String.valueOf(0));
         averageView.setText(String.valueOf(0));
 
+
         SharedPreferences prefs =
                 getActivity().getSharedPreferences("pedometer", Context.MODE_PRIVATE);
         goal = prefs.getInt("goal", Fragment_Settings.DEFAULT_GOAL);
@@ -165,6 +167,8 @@ public class Fragment_Overview extends Fragment implements SensorEventListener {
         Database db = Database.getInstance(getActivity());
         db.saveCurrentSteps(0);
         db.close();
+
+        SensorListener.getNotification_to_Zero(getActivity());
     }
     public void start_again(){
         set_to_zero();

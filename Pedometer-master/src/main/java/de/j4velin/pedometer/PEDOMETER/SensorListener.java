@@ -187,11 +187,35 @@ public class SensorListener extends Service implements SensorEventListener {
             e.printStackTrace();
         }
     }
+    public static Notification getNotification_to_Zero(final Context context) {
+        if (BuildConfig.DEBUG) Logger.log("getNotification");
+        SharedPreferences prefs = context.getSharedPreferences("pedometer", Context.MODE_PRIVATE);
+        int goal = prefs.getInt("goal", 6667);
+        Database db = Database.getInstance(context);
+        int today_offset = db.getSteps(Util.getToday());
+        if (steps == 0)
+            steps = db.getCurrentSteps(); // use saved value if we haven't anything better
+        db.close();
+        Notification.Builder notificationBuilder =
+                Build.VERSION.SDK_INT >= 26 ? API26Wrapper.getNotificationBuilder(context) :
+                        new Notification.Builder(context);
+
+            notificationBuilder.setContentText(
+                    context.getString(R.string.your_progress_will_be_shown_here_soon))
+                    .setContentTitle(context.getString(R.string.notification_title));
+
+        notificationBuilder.setPriority(Notification.PRIORITY_MIN).setShowWhen(false)
+                .setContentIntent(PendingIntent
+                        .getActivity(context, 0, new Intent(context, MainActivity.class),
+                                PendingIntent.FLAG_UPDATE_CURRENT))
+                .setSmallIcon(R.drawable.ic_notification).setOngoing(true);
+        return notificationBuilder.build();
+    }
 
     public static Notification getNotification(final Context context) {
         if (BuildConfig.DEBUG) Logger.log("getNotification");
         SharedPreferences prefs = context.getSharedPreferences("pedometer", Context.MODE_PRIVATE);
-        int goal = prefs.getInt("goal", 10000);
+        int goal = prefs.getInt("goal", 6667);
         Database db = Database.getInstance(context);
         int today_offset = db.getSteps(Util.getToday());
         if (steps == 0)
