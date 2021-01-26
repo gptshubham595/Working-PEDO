@@ -53,6 +53,7 @@ import java.util.List;
 import java.util.Locale;
 
 import de.j4velin.pedometer.BuildConfig;
+import de.j4velin.pedometer.MainActivity;
 import de.j4velin.pedometer.PEDOMETER.Database;
 import de.j4velin.pedometer.R;
 import de.j4velin.pedometer.PEDOMETER.SensorListener;
@@ -116,6 +117,7 @@ public class Fragment_Overview extends Fragment implements SensorEventListener {
                     mStopWatch.setBase(SystemClock.elapsedRealtime());
                     mStopWatch.stop();
                     button.setText("START");
+                    set_to_zero();
             }
         });
         button.setOnClickListener( new View.OnClickListener() {
@@ -127,7 +129,7 @@ public class Fragment_Overview extends Fragment implements SensorEventListener {
                 mStopWatch.stop();
                 mStopWatch.start();
                 v.setTag(0);
-
+                start_again();
             }
         });
         // slice for the steps taken today
@@ -150,6 +152,65 @@ public class Fragment_Overview extends Fragment implements SensorEventListener {
         pg.setUsePieRotation(true);
         pg.startAnimation();
         return v;
+    }
+    public void set_to_zero(){
+        totalView.setText(String.valueOf(0));
+        stepsView.setText(String.valueOf(0));
+        averageView.setText(String.valueOf(0));
+
+        SharedPreferences prefs =
+                getActivity().getSharedPreferences("pedometer", Context.MODE_PRIVATE);
+        goal = prefs.getInt("goal", Fragment_Settings.DEFAULT_GOAL);
+
+        Database db = Database.getInstance(getActivity());
+        db.saveCurrentSteps(0);
+        db.close();
+    }
+    public void start_again(){
+        set_to_zero();
+
+        Database db = Database.getInstance(getActivity());
+
+        if (BuildConfig.DEBUG) db.logState();
+        // read todays offset
+        todayOffset = db.getSteps(Util.getToday());
+
+        SharedPreferences prefs =
+                getActivity().getSharedPreferences("pedometer", Context.MODE_PRIVATE);
+
+        goal = prefs.getInt("goal", Fragment_Settings.DEFAULT_GOAL);
+        since_boot = db.getCurrentSteps();
+        int pauseDifference = since_boot - prefs.getInt("pauseCount", since_boot);
+
+        // register a sensorlistener to live update the UI if a step is taken
+        SensorManager sm = (SensorManager) getActivity().getSystemService(Context.SENSOR_SERVICE);
+        Sensor sensor = sm.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
+        if (sensor == null) {
+            new AlertDialog.Builder(getActivity()).setTitle(R.string.no_sensor)
+                    .setMessage(R.string.no_sensor_explain)
+                    .setOnDismissListener(new DialogInterface.OnDismissListener() {
+                        @Override
+                        public void onDismiss(final DialogInterface dialogInterface) {
+                            getActivity().finish();
+                        }
+                    }).setNeutralButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(final DialogInterface dialogInterface, int i) {
+                    dialogInterface.dismiss();
+                }
+            }).create().show();
+        } else {
+            sm.registerListener(this, sensor, SensorManager.SENSOR_DELAY_UI, 0);
+        }
+
+        since_boot -= pauseDifference;
+
+        total_start = db.getTotalWithoutToday();
+        total_days = db.getDays();
+
+        db.close();
+
+        stepsDistanceChanged();
     }
 
     @Override
@@ -251,7 +312,7 @@ public class Fragment_Overview extends Fragment implements SensorEventListener {
                         total_start + Math.max(todayOffset + since_boot, 0)).show();
                 return true;
             default:
-                return ((Activity_Main) getActivity()).optionsItemSelected(item);
+                return ((MainActivity) getActivity()).optionsItemSelected(item);
         }
     }
 

@@ -38,7 +38,8 @@ import java.util.Date;
 import java.util.Locale;
 
 import de.j4velin.pedometer.BuildConfig;
-import de.j4velin.pedometer.PEDOMETER.ui.Activity_Main;
+import de.j4velin.pedometer.MainActivity;
+
 import de.j4velin.pedometer.PEDOMETER.util.API23Wrapper;
 import de.j4velin.pedometer.PEDOMETER.util.API26Wrapper;
 import de.j4velin.pedometer.PEDOMETER.util.Logger;
@@ -216,7 +217,7 @@ public class SensorListener extends Service implements SensorEventListener {
         }
         notificationBuilder.setPriority(Notification.PRIORITY_MIN).setShowWhen(false)
                 .setContentIntent(PendingIntent
-                        .getActivity(context, 0, new Intent(context, Activity_Main.class),
+                        .getActivity(context, 0, new Intent(context, MainActivity.class),
                                 PendingIntent.FLAG_UPDATE_CURRENT))
                 .setSmallIcon(R.drawable.ic_notification).setOngoing(true);
         return notificationBuilder.build();

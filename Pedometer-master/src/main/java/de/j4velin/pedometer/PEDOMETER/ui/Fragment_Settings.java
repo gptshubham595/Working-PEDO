@@ -50,6 +50,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Locale;
 
+import de.j4velin.pedometer.MainActivity;
 import de.j4velin.pedometer.PEDOMETER.Database;
 import de.j4velin.pedometer.R;
 import de.j4velin.pedometer.PEDOMETER.SensorListener;
@@ -100,7 +101,7 @@ public class Fragment_Settings extends PreferenceFragment implements OnPreferenc
 
         Preference account = findPreference("account");
         PlaySettingsWrapper
-                .setupAccountSetting(account, savedInstanceState, (Activity_Main) getActivity());
+                .setupAccountSetting(account, savedInstanceState, (MainActivity) getActivity());
 
         Preference goal = findPreference("goal");
         goal.setOnPreferenceClickListener(this);
@@ -118,7 +119,7 @@ public class Fragment_Settings extends PreferenceFragment implements OnPreferenc
     @Override
     public void onSaveInstanceState(final Bundle outState) {
         super.onSaveInstanceState(outState);
-        PlaySettingsWrapper.onSavedInstance(outState, (Activity_Main) getActivity());
+        PlaySettingsWrapper.onSavedInstance(outState, (MainActivity) getActivity());
     }
 
     @Override
@@ -145,7 +146,7 @@ public class Fragment_Settings extends PreferenceFragment implements OnPreferenc
 
     @Override
     public boolean onOptionsItemSelected(final MenuItem item) {
-        return ((Activity_Main) getActivity()).optionsItemSelected(item);
+        return ((MainActivity) getActivity()).optionsItemSelected(item);
     }
 
     @Override
@@ -160,7 +161,7 @@ public class Fragment_Settings extends PreferenceFragment implements OnPreferenc
                 final NumberPicker np = new NumberPicker(getActivity());
                 np.setMinValue(1);
                 np.setMaxValue(100000);
-                np.setValue(prefs.getInt("goal", 10000));
+                np.setValue(prefs.getInt("goal", 6667));
                 builder.setView(np);
                 builder.setTitle(R.string.set_goal);
                 builder.setPositiveButton(android.R.string.ok, new OnClickListener() {

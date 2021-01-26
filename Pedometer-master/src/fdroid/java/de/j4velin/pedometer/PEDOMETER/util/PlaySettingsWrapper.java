@@ -18,7 +18,7 @@ package de.j4velin.pedometer.PEDOMETER.util;
 import android.os.Bundle;
 import android.preference.Preference;
 
-import de.j4velin.pedometer.PEDOMETER.ui.Activity_Main;
+import de.j4velin.pedometer.MainActivity;
 
 /**
  * Class to wrap some Google Play related stuff in the SettingsFragment
@@ -27,12 +27,12 @@ public class PlaySettingsWrapper {
 
     public static void setupAccountSetting(final Preference account,
                                            final Bundle savedInstanceState,
-                                           final Activity_Main main) {
+                                           final MainActivity main) {
         account.setSummary("This feature is not available on the F-Droid version of the app");
         account.setEnabled(false);
     }
 
-    public static void onSavedInstance(final Bundle outState, final Activity_Main main) {
+    public static void onSavedInstance(final Bundle outState, final MainActivity main) {
 
     }
 
