@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package de.j4velin.pedometer.PEDOMETER.util;
+package com.alcher.pedometer.PEDOMETER.util;
 
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -25,9 +25,9 @@ import android.widget.TextView;
 
 import com.google.android.gms.games.Games;
 
-import de.j4velin.pedometer.BuildConfig;
-import de.j4velin.pedometer.R;
-import de.j4velin.pedometer.PEDOMETER.ui.Activity_Main;
+import com.alcher.pedometer.BuildConfig;
+import com.alcher.pedometer.R;
+import com.alcher.pedometer.PEDOMETER.ui.Activity_Main;
 
 /**
  * Class to wrap some Google Play related stuff in the SettingsFragment

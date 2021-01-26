@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package de.j4velin.pedometer.PEDOMETER.ui;
+package com.alcher.pedometer.PEDOMETER.ui;
 
 import android.Manifest;
 import android.app.Activity;
@@ -45,13 +45,13 @@ import com.google.android.gms.fitness.data.DataType;
 import com.google.android.gms.games.Games;
 import com.google.android.gms.games.GamesActivityResultCodes;
 
-import de.j4velin.pedometer.BuildConfig;
-import de.j4velin.pedometer.R;
-import de.j4velin.pedometer.SensorListener;
-import de.j4velin.pedometer.PEDOMETER.util.API26Wrapper;
-import de.j4velin.pedometer.PEDOMETER.util.GoogleFit;
-import de.j4velin.pedometer.PEDOMETER.util.Logger;
-import de.j4velin.pedometer.PEDOMETER.util.PlayServices;
+import com.alcher.pedometer.BuildConfig;
+import com.alcher.pedometer.R;
+import com.alcher.pedometer.SensorListener;
+import com.alcher.pedometer.PEDOMETER.util.API26Wrapper;
+import com.alcher.pedometer.PEDOMETER.util.GoogleFit;
+import com.alcher.pedometer.PEDOMETER.util.Logger;
+import com.alcher.pedometer.PEDOMETER.util.PlayServices;
 
 public class Activity_Main extends FragmentActivity implements GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener {

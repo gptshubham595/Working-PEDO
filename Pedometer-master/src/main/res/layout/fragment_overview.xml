@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:padding="5dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".PEDOMETER.ui.Fragment_Overview">
+    tools:context="com.alcher.pedometer.PEDOMETER.ui.Fragment_Overview">
 
     <org.eazegraph.lib.charts.PieChart xmlns:eaze="http://schemas.android.com/apk/res-auto"
         android:id="@+id/graph"
