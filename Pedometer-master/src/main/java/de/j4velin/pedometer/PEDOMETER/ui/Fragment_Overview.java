@@ -18,6 +18,7 @@ package de.j4velin.pedometer.PEDOMETER.ui;
 import android.app.AlertDialog;
 import android.app.Fragment;
 import android.app.Notification;
+import android.app.NotificationManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -30,6 +31,7 @@ import android.hardware.SensorManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.IBinder;
 import android.os.SystemClock;
 import android.util.Pair;
 import android.view.LayoutInflater;
@@ -63,6 +65,11 @@ import de.j4velin.pedometer.PEDOMETER.SensorListener;
 import de.j4velin.pedometer.PEDOMETER.util.API26Wrapper;
 import de.j4velin.pedometer.PEDOMETER.util.Logger;
 import de.j4velin.pedometer.PEDOMETER.util.Util;
+import android.app.Service;
+
+import androidx.annotation.Nullable;
+
+import static de.j4velin.pedometer.PEDOMETER.SensorListener.NOTIFICATION_ID;
 
 public class Fragment_Overview extends Fragment implements SensorEventListener {
 
@@ -175,6 +182,7 @@ public class Fragment_Overview extends Fragment implements SensorEventListener {
         try {
             Database db = Database.getInstance(getActivity());
             SensorListener.getNotification_to_Zero(getActivity());
+
             db.deleteAll();
             db.addToLastEntry(0);
             db.saveCurrentSteps(0);
@@ -182,6 +190,8 @@ public class Fragment_Overview extends Fragment implements SensorEventListener {
         }catch(Exception ex){
             Toast.makeText(getActivity(), "FAILED!!", Toast.LENGTH_SHORT).show();
         }
+
+//        API26Wrapper.startForeground(NOTIFICATION_ID, SensorListener.getNotification_to_Zero(getActivity()));
 
     }
     public void start_again(){
@@ -466,5 +476,6 @@ public class Fragment_Overview extends Fragment implements SensorEventListener {
             barChart.setVisibility(View.GONE);
         }
     }
+
 
 }

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "de.j4velin.pedometer",
+  "variantName": "processFdroidDebugResources",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 1511,
+      "versionName": "1.5.11",
+      "outputFile": "Pedometer-master-fdroid-debug.apk"
+    }
+  ]
+}
