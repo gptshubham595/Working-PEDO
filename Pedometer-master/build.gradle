@@ -13,8 +13,18 @@ buildscript {
         } else {
             logger.warn('classpath not found in rootProject')
             classpath 'com.android.tools.build:gradle:4.1.2'
+            classpath 'com.google.gms:google-services:4.3.4'
         }
     }
+}
+allprojects {
+    repositories {
+        jcenter()
+        maven{url "https://jitpack.io"}
+        google()
+        mavenCentral()
+    }
+
 }
 
 apply plugin: 'com.android.application'
@@ -120,3 +130,5 @@ android.signingConfigs.release.storePassword props.keyStorePassword
 android.signingConfigs.release.keyAlias props.keyAlias
 
 android.signingConfigs.release.keyPassword props.keyAliasPassword
+
+apply plugin: 'com.google.gms.google-services'
