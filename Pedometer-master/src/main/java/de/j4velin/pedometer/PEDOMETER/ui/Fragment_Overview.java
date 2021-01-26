@@ -29,6 +29,7 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.SystemClock;
 import android.util.Pair;
 import android.view.LayoutInflater;
@@ -41,6 +42,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.eazegraph.lib.charts.BarChart;
 import org.eazegraph.lib.charts.PieChart;
@@ -119,6 +121,13 @@ public class Fragment_Overview extends Fragment implements SensorEventListener {
                     mStopWatch.stop();
                     button.setText("START");
                     set_to_zero();
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        set_to_zero();
+                    }
+                }, 2000);
             }
         });
         button.setOnClickListener( new View.OnClickListener() {
@@ -163,12 +172,17 @@ public class Fragment_Overview extends Fragment implements SensorEventListener {
         SharedPreferences prefs =
                 getActivity().getSharedPreferences("pedometer", Context.MODE_PRIVATE);
         goal = prefs.getInt("goal", Fragment_Settings.DEFAULT_GOAL);
+        try {
+            Database db = Database.getInstance(getActivity());
+            SensorListener.getNotification_to_Zero(getActivity());
+            db.deleteAll();
+            db.addToLastEntry(0);
+            db.saveCurrentSteps(0);
+            db.close();
+        }catch(Exception ex){
+            Toast.makeText(getActivity(), "FAILED!!", Toast.LENGTH_SHORT).show();
+        }
 
-        Database db = Database.getInstance(getActivity());
-        db.saveCurrentSteps(0);
-        db.close();
-
-        SensorListener.getNotification_to_Zero(getActivity());
     }
     public void start_again(){
         set_to_zero();
@@ -221,49 +235,49 @@ public class Fragment_Overview extends Fragment implements SensorEventListener {
     public void onResume() {
         super.onResume();
   //      getActivity().getActionBar().setDisplayHomeAsUpEnabled(false);
-
-        Database db = Database.getInstance(getActivity());
-
-        if (BuildConfig.DEBUG) db.logState();
-        // read todays offset
-        todayOffset = db.getSteps(Util.getToday());
-
-        SharedPreferences prefs =
-                getActivity().getSharedPreferences("pedometer", Context.MODE_PRIVATE);
-
-        goal = prefs.getInt("goal", Fragment_Settings.DEFAULT_GOAL);
-        since_boot = db.getCurrentSteps();
-        int pauseDifference = since_boot - prefs.getInt("pauseCount", since_boot);
-
-        // register a sensorlistener to live update the UI if a step is taken
-        SensorManager sm = (SensorManager) getActivity().getSystemService(Context.SENSOR_SERVICE);
-        Sensor sensor = sm.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
-        if (sensor == null) {
-            new AlertDialog.Builder(getActivity()).setTitle(R.string.no_sensor)
-                    .setMessage(R.string.no_sensor_explain)
-                    .setOnDismissListener(new DialogInterface.OnDismissListener() {
-                        @Override
-                        public void onDismiss(final DialogInterface dialogInterface) {
-                            getActivity().finish();
-                        }
-                    }).setNeutralButton(android.R.string.ok, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(final DialogInterface dialogInterface, int i) {
-                    dialogInterface.dismiss();
-                }
-            }).create().show();
-        } else {
-            sm.registerListener(this, sensor, SensorManager.SENSOR_DELAY_UI, 0);
-        }
-
-        since_boot -= pauseDifference;
-
-        total_start = db.getTotalWithoutToday();
-        total_days = db.getDays();
-
-        db.close();
-
-        stepsDistanceChanged();
+//
+//        Database db = Database.getInstance(getActivity());
+//
+//        if (BuildConfig.DEBUG) db.logState();
+//        // read todays offset
+//        todayOffset = db.getSteps(Util.getToday());
+//
+//        SharedPreferences prefs =
+//                getActivity().getSharedPreferences("pedometer", Context.MODE_PRIVATE);
+//
+//        goal = prefs.getInt("goal", Fragment_Settings.DEFAULT_GOAL);
+//        since_boot = db.getCurrentSteps();
+//        int pauseDifference = since_boot - prefs.getInt("pauseCount", since_boot);
+//
+//        // register a sensorlistener to live update the UI if a step is taken
+//        SensorManager sm = (SensorManager) getActivity().getSystemService(Context.SENSOR_SERVICE);
+//        Sensor sensor = sm.getDefaultSensor(Sensor.TYPE_STEP_COUNTER);
+//        if (sensor == null) {
+//            new AlertDialog.Builder(getActivity()).setTitle(R.string.no_sensor)
+//                    .setMessage(R.string.no_sensor_explain)
+//                    .setOnDismissListener(new DialogInterface.OnDismissListener() {
+//                        @Override
+//                        public void onDismiss(final DialogInterface dialogInterface) {
+//                            getActivity().finish();
+//                        }
+//                    }).setNeutralButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+//                @Override
+//                public void onClick(final DialogInterface dialogInterface, int i) {
+//                    dialogInterface.dismiss();
+//                }
+//            }).create().show();
+//        } else {
+//            sm.registerListener(this, sensor, SensorManager.SENSOR_DELAY_UI, 0);
+//        }
+//
+//        since_boot -= pauseDifference;
+//
+//        total_start = db.getTotalWithoutToday();
+//        total_days = db.getDays();
+//
+//        db.close();
+//
+//        stepsDistanceChanged();
     }
 
     /**

@@ -318,7 +318,11 @@ public class Database extends SQLiteOpenHelper {
     public void removeInvalidEntries() {
         getWritableDatabase().delete(DB_NAME, "steps >= ?", new String[]{"200000"});
     }
+    public void deleteAll() {
+        getWritableDatabase().execSQL("DELETE FROM " + DB_NAME );
 
+//        DELETE * FROM table_name;
+    }
     /**
      * Get the number of 'valid' days (= days with a step value > 0).
      * <p/>
