@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.alcher.pedometer.PEDOMETER.util;
+package com.j4velin.pedometer.PEDOMETER.util;
 
 import android.os.Bundle;
 import android.preference.Preference;
 
-import com.alcher.pedometer.MainActivity;
+import com.j4velin.pedometer.MainActivity;
 
 /**
  * Class to wrap some Google Play related stuff in the SettingsFragment

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alcher.pedometer.PEDOMETER;
+package com.j4velin.pedometer.PEDOMETER;
 
 import android.app.AlarmManager;
 import android.app.Notification;
@@ -33,21 +33,20 @@ import android.hardware.SensorManager;
 import android.os.Build;
 import android.os.IBinder;
 
-import com.alcher.pedometer.BuildConfig;
-import com.alcher.pedometer.MainActivity;
-import com.alcher.pedometer.PEDOMETER.util.Logger;
-import com.alcher.pedometer.PEDOMETER.util.Util;
-import com.alcher.pedometer.PEDOMETER.widget.WidgetUpdateService;
+import com.j4velin.pedometer.PEDOMETER.util.API23Wrapper;
+import com.j4velin.pedometer.PEDOMETER.util.API26Wrapper;
+import com.j4velin.pedometer.PEDOMETER.util.Logger;
+import com.j4velin.pedometer.PEDOMETER.util.Util;
+import com.j4velin.pedometer.PEDOMETER.widget.WidgetUpdateService;
 
 import java.text.NumberFormat;
 import java.util.Date;
 import java.util.Locale;
 
+import com.j4velin.pedometer.BuildConfig;
+import com.j4velin.pedometer.MainActivity;
 
-import com.alcher.pedometer.PEDOMETER.util.API23Wrapper;
-import com.alcher.pedometer.PEDOMETER.util.API26Wrapper;
-
-import com.alcher.pedometer.R;
+import com.j4velin.pedometer.R;
 
 /**
  * Background service which keeps the step-sensor listener alive to always get

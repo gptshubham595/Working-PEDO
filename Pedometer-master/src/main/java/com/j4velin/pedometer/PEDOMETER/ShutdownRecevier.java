@@ -14,16 +14,16 @@
  * limitations under the License.
  */
 
-package com.alcher.pedometer.PEDOMETER;
+package com.j4velin.pedometer.PEDOMETER;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.alcher.pedometer.PEDOMETER.util.Logger;
-import com.alcher.pedometer.PEDOMETER.util.Util;
+import com.j4velin.pedometer.PEDOMETER.util.Logger;
+import com.j4velin.pedometer.PEDOMETER.util.Util;
 
-import com.alcher.pedometer.BuildConfig;
+import com.j4velin.pedometer.BuildConfig;
 
 public class ShutdownRecevier extends BroadcastReceiver {
 

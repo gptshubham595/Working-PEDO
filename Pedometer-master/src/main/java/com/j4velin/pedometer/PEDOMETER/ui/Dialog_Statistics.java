@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.alcher.pedometer.PEDOMETER.ui;
+package com.j4velin.pedometer.PEDOMETER.ui;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -23,13 +23,13 @@ import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.TextView;
 
-import com.alcher.pedometer.PEDOMETER.Database;
-import com.alcher.pedometer.PEDOMETER.util.Util;
+import com.j4velin.pedometer.PEDOMETER.util.Util;
 
 import java.util.Calendar;
 import java.util.Date;
 
-import com.alcher.pedometer.R;
+import com.j4velin.pedometer.PEDOMETER.Database;
+import com.j4velin.pedometer.R;
 
 abstract class Dialog_Statistics {
 

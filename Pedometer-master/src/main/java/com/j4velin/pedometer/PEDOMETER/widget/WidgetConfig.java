@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alcher.pedometer.PEDOMETER.widget;
+package com.j4velin.pedometer.PEDOMETER.widget;
 
 import android.app.Activity;
 import android.appwidget.AppWidgetManager;
@@ -25,9 +25,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 
+
+import com.j4velin.pedometer.R;
+
 import de.j4velin.lib.colorpicker.ColorPickerDialog;
 import de.j4velin.lib.colorpicker.ColorPreviewButton;
-import com.alcher.pedometer.R;
 
 public class WidgetConfig extends Activity implements OnClickListener {
 

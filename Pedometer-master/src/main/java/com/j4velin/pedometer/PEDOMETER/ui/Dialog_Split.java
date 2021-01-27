@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alcher.pedometer.PEDOMETER.ui;
+package com.j4velin.pedometer.PEDOMETER.ui;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -23,8 +23,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
-
-import com.alcher.pedometer.R;
+import com.j4velin.pedometer.R;
 
 abstract class Dialog_Split {
 

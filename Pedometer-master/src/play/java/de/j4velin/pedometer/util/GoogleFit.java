@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alcher.pedometer.PEDOMETER.util;
+package com.j4velin.pedometer.PEDOMETER.util;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -30,8 +30,8 @@ import com.google.android.gms.fitness.data.Device;
 import java.util.Calendar;
 import java.util.concurrent.TimeUnit;
 
-import com.alcher.pedometer.BuildConfig;
-import com.alcher.pedometer.Database;
+import de.j4velin.pedometer.BuildConfig;
+import de.j4velin.pedometer.Database;
 
 /**
  * Class to manage the Google Fit sync

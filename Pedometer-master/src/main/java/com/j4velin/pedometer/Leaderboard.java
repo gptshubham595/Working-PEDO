@@ -1,4 +1,4 @@
-package com.alcher.pedometer;
+package com.j4velin.pedometer;
 
 import androidx.annotation.Nullable;
 

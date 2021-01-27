@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.alcher.pedometer.PEDOMETER.ui;
+package com.j4velin.pedometer.PEDOMETER.ui;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -42,10 +42,8 @@ import android.widget.NumberPicker;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-import com.alcher.pedometer.MainActivity;
-import com.alcher.pedometer.PEDOMETER.Database;
-import com.alcher.pedometer.PEDOMETER.SensorListener;
-import com.alcher.pedometer.PEDOMETER.util.PlaySettingsWrapper;
+import com.j4velin.pedometer.PEDOMETER.util.API23Wrapper;
+import com.j4velin.pedometer.PEDOMETER.util.API26Wrapper;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -55,10 +53,14 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Locale;
 
-import com.alcher.pedometer.R;
+import com.j4velin.pedometer.MainActivity;
+import com.j4velin.pedometer.PEDOMETER.Database;
+import com.j4velin.pedometer.PEDOMETER.util.PlaySettingsWrapper;
+import com.j4velin.pedometer.R;
+import com.j4velin.pedometer.PEDOMETER.SensorListener;
 
-import com.alcher.pedometer.PEDOMETER.util.API23Wrapper;
-import com.alcher.pedometer.PEDOMETER.util.API26Wrapper;
+
+
 
 public class Fragment_Settings extends PreferenceFragment implements OnPreferenceClickListener {
 

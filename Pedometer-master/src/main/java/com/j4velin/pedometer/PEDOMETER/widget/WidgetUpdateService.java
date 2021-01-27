@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alcher.pedometer.PEDOMETER.widget;
+package com.j4velin.pedometer.PEDOMETER.widget;
 
 import android.appwidget.AppWidgetManager;
 import android.content.ComponentName;
@@ -23,8 +23,8 @@ import android.content.Intent;
 import androidx.annotation.NonNull;
 import androidx.core.app.JobIntentService;
 
-import com.alcher.pedometer.PEDOMETER.util.Util;
-import com.alcher.pedometer.PEDOMETER.Database;
+import com.j4velin.pedometer.PEDOMETER.Database;
+import com.j4velin.pedometer.PEDOMETER.util.Util;
 
 public class WidgetUpdateService extends JobIntentService {
 

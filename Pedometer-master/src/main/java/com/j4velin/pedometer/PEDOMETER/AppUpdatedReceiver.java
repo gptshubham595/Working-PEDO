@@ -14,17 +14,17 @@
  * limitations under the License.
  */
 
-package com.alcher.pedometer.PEDOMETER;
+package com.j4velin.pedometer.PEDOMETER;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 
-import com.alcher.pedometer.PEDOMETER.util.Logger;
+import com.j4velin.pedometer.PEDOMETER.util.API26Wrapper;
+import com.j4velin.pedometer.PEDOMETER.util.Logger;
 
-import com.alcher.pedometer.BuildConfig;
-import com.alcher.pedometer.PEDOMETER.util.API26Wrapper;
+import com.j4velin.pedometer.BuildConfig;
 
 public class AppUpdatedReceiver extends BroadcastReceiver {
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alcher.pedometer.PEDOMETER;
+package com.j4velin.pedometer.PEDOMETER;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -23,15 +23,15 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Pair;
 
-import com.alcher.pedometer.PEDOMETER.util.Logger;
-import com.alcher.pedometer.PEDOMETER.util.Util;
+import com.j4velin.pedometer.PEDOMETER.util.Logger;
+import com.j4velin.pedometer.PEDOMETER.util.Util;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import com.alcher.pedometer.BuildConfig;
+import com.j4velin.pedometer.BuildConfig;
 
 public class Database extends SQLiteOpenHelper {
 

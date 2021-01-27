@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alcher.pedometer.PEDOMETER.util;
+package com.j4velin.pedometer.PEDOMETER.util;
 
 import android.annotation.TargetApi;
 import android.app.Notification;

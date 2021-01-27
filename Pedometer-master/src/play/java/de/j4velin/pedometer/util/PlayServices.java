@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.alcher.pedometer.PEDOMETER.util;
+package de.j4velin.pedometer.PEDOMETER.util;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -24,8 +24,8 @@ import android.preference.PreferenceManager;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.games.Games;
 
-import com.alcher.pedometer.Database;
-import com.alcher.pedometer.R;
+import de.j4velin.pedometer.Database;
+import de.j4velin.pedometer.R;
 
 /**
  * Class to manage the Google Play achievements

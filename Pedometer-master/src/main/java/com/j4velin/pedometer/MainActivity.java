@@ -1,4 +1,4 @@
-package com.alcher.pedometer;
+package com.j4velin.pedometer;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,13 +19,10 @@ import android.view.MenuItem;
 import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.j4velin.pedometer.PEDOMETER.SensorListener;
+import com.j4velin.pedometer.PEDOMETER.ui.Fragment_Overview;
+import com.j4velin.pedometer.PEDOMETER.ui.Fragment_Settings;
 import com.ogaclejapan.smarttablayout.utils.v4.FragmentPagerItemAdapter;
-
-import com.alcher.pedometer.PEDOMETER.SensorListener;
-import com.alcher.pedometer.PEDOMETER.ui.Fragment_Overview;
-import com.alcher.pedometer.PEDOMETER.ui.Fragment_Settings;
-
-import com.alcher.pedometer.R;
 
 public class MainActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
     FragmentPagerItemAdapter adapter;
